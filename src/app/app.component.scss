@@ -1,0 +1,17 @@
+@import './styles/variables.scss';
+
+ut-navbar {
+    width: 100%;
+    height: 65px;
+    background: rgba(255,255,255,0.9);
+    display: inline-block;
+    position: absolute;
+    border-bottom: 1px solid $primaryColor;
+    z-index: 10;
+}
+#main-container {
+    position: absolute;
+    top: 0;
+    // height: calc(100% - 65px);
+    display: inline-block;
+}

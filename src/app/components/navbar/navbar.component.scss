@@ -1,0 +1,41 @@
+@import '../../styles/variables.scss';
+
+.nav-left {
+    height: 100%;
+    float: left;
+    // display: inline-block;
+    max-height: 60px;
+    cursor: pointer;
+}
+
+.nav-right {
+    float: right;
+    ul {
+        list-style: none;
+        li {
+            display: inline-block;
+            position: relative;
+            margin: 0 0.2em;
+            padding: 0.3em 0.3em;
+            a {
+                text-decoration: none;
+                color: $primaryColorDark;
+                &.active {
+                    color: $primaryColorLight;
+                }
+            }
+            a::after {
+                width: 0px;
+                transition: width 0.2s linear;
+                content: "";
+                border-bottom: 2px solid $primaryColor;
+                bottom: 0;
+                left: 0;
+                position: absolute;
+            }
+            a:hover:after {
+                width: 100%;
+            }
+        }
+    }
+}

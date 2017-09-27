@@ -1,0 +1,27 @@
+<div id="home-container" *ngIf="dataService.data">
+    <div class="img-container">
+        <img class="top-img" [src]="dataService.data.startpage.topImg">
+        <div class="title"><h1>{{dataService.data.startpage.title}}</h1></div>
+        <div class="subtitle"><h2>{{dataService.data.startpage.subtitle}}</h2></div>
+    </div>
+    
+    <div class="ut-content-container">
+        <div class="ut-content content">
+            <h2>{{dataService.data.startpage.contentTitle}}</h2>
+            <p> {{dataService.data.startpage.content}} </p>
+            <ul>
+                <li *ngFor="let box of dataService.data.startpage.contentBox" class="container">
+                    <div class="box">
+                        <div class="box-inlay">
+                            <h3>{{box.title}}</h3>
+                        </div>
+                        <div class="box-overlay">{{box.content}} <p>Erfahre bald mehr!</p></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="img-container">
+        <img class="bot-img" [src]="dataService.data.startpage.botImg">
+    </div>
+</div>

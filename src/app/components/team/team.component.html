@@ -1,0 +1,20 @@
+<div id="team" *ngIf="dataService.data">
+    <div class="img-container">
+        <img class="team-img" [src]="dataService.data.team.teamImg">
+        <h1>Best Team in the World</h1>
+    </div>
+    <div class="teammembers ut-content-container">
+        <h2> Team Mitglider </h2>
+        <ul>
+            <li *ngFor="let member of dataService.data.team.members" class="member">
+                <div class="img-wrapper">
+                    <img [src]="member.img">
+                </div>
+                <div class="member-content">
+                    <h3>{{member.name}} ({{member.title}})</h3>
+                    <p>{{member.desc}}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

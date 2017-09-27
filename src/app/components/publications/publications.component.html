@@ -1,0 +1,16 @@
+<div id="pubs" class="ut-content-container">
+    <h1> Veröffentlichungen </h1>
+    <ul *ngIf="dataService.data">
+        <li *ngFor="let year of dataService.data.publications">
+            <h2>{{year.year}}</h2>
+            <ul>
+                <li class="pub" *ngFor="let pub of year.pubs">
+                    <h3>{{pub.title}}</h3>
+                    <p *ngIf="pub.type"></p>
+                    <p class="authors">{{pub.author}} <ng-container *ngIf="pub.type">({{pub.type}})</ng-container></p>
+                    <p class="where">{{pub.where}}</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
