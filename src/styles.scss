@@ -5,10 +5,22 @@ html, body {
     margin: 0;
     width: 100%;
     // overflow-x: hidden;
+    font-family: BrixSlab,Helvetica,sans-serif;
 }
 
 .ut-content-container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+@font-face {
+  font-family: BrixSlab;
+  src: url(assets/fonts/BrixSlab-Regular.otf);
+}
+@font-face {
+  font-family: BrixSlab;
+  font-weight: bold;
+  src: url(assets/fonts/BrixSlab-Bold.otf);
+}
+
 
