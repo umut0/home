@@ -1,0 +1,275 @@
+{
+    "nav" : {
+        "logo" : "assets/img/logo.svg"
+    },
+    "startpage" : {
+        "title": "eduSense make your world better!",
+        "topImg" : "assets/img/startTop.jpg",
+        "subtitle" : "Learn how to use technologie and spread knowledge, information, data around the globe.",
+        "botImg" : "assets/img/startBot.jpg",
+        "contentTitle" : "We Do lots of fun things:",
+        "content" : "For Example this stuff and that stuff and so on",
+        "contentBox" : [
+            {
+                "title" : "SenseBox",
+                "content" : "Awesome sensor Box"
+            },{
+                "title" : "Workshops",
+                "content" : "How to use technologie?"
+            },{
+                "title" : "Services",
+                "content" : "Making services"
+            }
+        ]
+    },
+    "team" : {
+        "teamImg" : "assets/img/team.jpg",
+        "members" : [
+            {
+                "name" : "Thomas Bartochek",
+                "title" : "Dr.",
+                "desc" : "Der Leiter und Gründer von GI@School hat langjährige Erfahrungen im Bildungsbereich, im Projektmanagement und Präsentationstechniken vorzuweisen. Er hat über 500 Lehrer fortgebildet und sehr viel praktische Erfahrung in der Lehre gesammelt. Durch die Forschungsarbeit im Rahmen seiner Dissertation war er zudem die treibende Kraft im erfolgreichen Aufbau des Forschungs- und Schülerlabors. Im Unternehmen übernimmt Dr. Bartoschek die Geschäftsführung, wird für Produktdesign und -entwicklung, Kundenakquise und das Verfassen von Anträgen verantwortlich sein.",
+                "img"  : "assets/img/team/umut.jpg"
+            },{
+                "name" : "Jan Wirwahhn",
+                "title" : "M.Sc. Geoinformatics",
+                "desc" : "Arbeitet momentan als wissenschaftlicher Mitarbeiter im senseBox Projekt. Dort ist er für das Design der Hardware und die Planung von Workshops zuständig. Des weiteren führt er als Dozent am Fachbereich Geowissenschaften praktische Seminare zur Geodatenerhebung und Mikrocontrollerprogrammierung durch. Im Unternehmen wird er für die Weiterentwicklung der senseBox verantwortlich sein, sowie die Hardwareentwicklung von interaktiven Exponaten vorantreiben. Außerdem wird er für die Planung von Seminaren und das Erstellen von Lehrmaterialien zuständig sein",
+                "img"  : "assets/img/team/umut.jpg"
+            },{
+                "name" : "David",
+                "title" : "B.Sc. Economics and Business Administration",
+                "desc" : "Beendet gerade sein Masterstudium in Betriebswirtschaftslehre mit den Schwerpunkten Marketing und Wirtschaftsinformatik an der Universität Münster (Januar 2018). Neben seinem Studium konnte er bereits praktische Erfahrungen in den Bereichen Business Development, Verkauf und Projektmanagement in namhaften Unternehmen sammeln. In den letzten Jahren fokussierte er sich auf die Umsetzung von unternehmerischen Projekten, wie der Gründung einer gemeinnützigen GmbH, oder dem Aufbau eines Software Start-ups. Im Unternehmen wird er für Finanzen, Marketing, Projektmanagement und Kundenakquise und -betreuung verantwortlich sein.",
+                "img"  : "assets/img/team/umut.jpg"
+            },{
+                "name" : "Umut Tas",
+                "title" : "M.Sc. Geoinformatics",
+                "desc" : "Ist freiberuflicher Softwareentwickler und hat nach seinem Abschluss am Institut für Geoinformatik (2013) in verschiedenen Startups in Hamburg und Berlin gearbeitet. In dieser Zeit hat er hat sich auf Webentwicklung und insbesondere auf die Visualisierung von Geodaten im Web spezialisiert. Im Unternehmen wird er für Softwareentwicklung, insb. im Bereich Web und Datenvisualisierung verantwortlich sein.",
+                "img"  : "assets/img/team/umut.jpg"
+            }
+        ]
+    },
+    "publications" : [
+        {
+            "year" : "2017",
+            "pubs" : [
+                { 
+                    "title" : "Spatial Learning with Geospatial Technologies",
+                    "author": "Bartoschek, T",
+                    "type"  : "PhD Thesis",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{ 
+                    "title" : "OriGami – A Mobile Geogame for Spatial Literac.",
+                    "author": "Bartoschek, TBartoschek, T.,  Schwering, A., Li, R., Münzer, S.",
+                    "type"  : "",
+                    "where" : "Schlieder, C. Ahlquist, O. (Eds.) Geogames and Geoplay – Game-based Approaches to the Analysis of Geo-Information. Springer."
+                }
+            ]
+        },{
+            "year" : "2015",
+            "pubs" : [
+                { 
+                    "title" : "Usability Engineering for Successful Open Citizen Science.",
+                    "author": "Wirwahn, J., Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "Academic Track, FOSS4G’15, Seoul, Republic of Korea"
+                },{ 
+                    "title" : "OpenSenseMap – A Citizen Science Platform for Publishing and Exploring Sensor Data as Open Data",
+                    "author": "Pfeil, M., Bartoschek, T., Wirwahn, J.",
+                    "type"  : "",
+                    "where" : "Academic Track, FOSS4G’15, Seoul, Republic of Korea"
+                }
+            ]
+        },{
+            "year" : "2014",
+            "pubs" : [
+                { 
+                    "title" : "Gestural Interaction with Linked Spatiotemporal Data",
+                    "author": "Bartoschek, T., Pape, G., Jones, J., Kray, C., Kauppinen, T",
+                    "type"  : "",
+                    "where" : "OS Geo Journal. FOSS4G 2013 Proceedings"
+                },{ 
+                    "title" : "It’s GIrls’ Day! What sketch maps show about girls’ spatial knowledge. In: Connecting a Digital Europe through Location and Place",
+                    "author": "Anacta, V.J., Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "Proceedings of the AGILE’2014 International Conference on Geographic Information Science, Castellón, June, 3-6, 2014"
+                },{ 
+                    "title" : "SchulWebGIS.NRW",
+                    "author": "Caffier, A., Bartoschek, T. , Gierse, K.-U.",
+                    "type"  : "",
+                    "where" : "NÖV – Nachrichten aus dem öffentlichen Vermessungswesen Nordrhein Westfalen. Ausgabe 1 / 2014, S. 79-85"
+                }
+            ]
+        },{
+            "year" : "2013",
+            "pubs" : [
+                { 
+                    "title" : "What happens when Teacher Training in Digital Geomedia is over? Case studies analyzing levels of pedagogical integration",
+                    "author": "Bartoschek, T. , Carlos, V.",
+                    "type"  : "",
+                    "where" : "GI-Forum 2013 Conference Proceedings, Salzburg"
+                }, { 
+                    "title" : "Assessing the Usability of WebGIS for Schools",
+                    "author": "Dueren, M., Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "GI-Forum 2013 Conference Proceedings, Salzburg"
+                }, { 
+                    "title" : "Geoinformation im Geographieunterricht – Grundlagen, Potenziale, Ideen",
+                    "author": "Bartoschek, T., Schubert, J.C.",
+                    "type"  : "",
+                    "where" : "M+V Wissenschaft Verlag. Münster"
+                }, { 
+                    "title" : "Geo-Apps – Einsatz von Smartphones und Tablets im Geographieunterricht",
+                    "author": "Bartoschek, T., Pfeil, M. v.Laguna, C.",
+                    "type"  : "",
+                    "where" : "Bartoschek, T., Schubert, J.C. (Eds.)"
+                }, { 
+                    "title" : "Volunteered Geographic Information – Nutzergenerierte Geoinformation im Unterricht",
+                    "author": "Bartoschek, T., Rieffel, P.",
+                    "type"  : "",
+                    "where" : "Bartoschek, T., Schubert, J.C. (Eds.) Geoinformation im Geographieunterricht – Grundlagen, Potenziale, Ideen. M+V Wissenschaftsverlag. Münster"
+                }, { 
+                    "title" : "GPS-Einsatz im Geographieunterricht – Kartierungen und Geocaching",
+                    "author": "Bartoschek, T., Frewer, K.G., v. Laguna, C.",
+                    "type"  : "",
+                    "where" : "Bartoschek, T., Schubert, J.C. (Eds.) Geoinformation im Geographieunterricht – Grundlagen, Potenziale, Ideen. M+V Wissenschaftsverlag. Münster"
+                }, { 
+                    "title" : "Webmapping im Unterricht",
+                    "author": "Bartoschek, T., Dragunski, M., Pfeil, M., Rieffel, P., Schubert, J.C.",
+                    "type"  : "",
+                    "where" : "Bartoschek, T., Schubert, J.C. (Eds.) Geoinformation im Geographieunterricht – Grundlagen, Potenziale, Ideen. M+V Wissenschaftsverlag. Münster"
+                }, { 
+                    "title" : "Usability Engineering for educational Web GIS",
+                    "author": "Dueren, M., Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "AGILE 2013 Conference Proceedings, 15.-17. May 2013, Leuven"
+                }, { 
+                    "title" : "SenseBox – Die Kiste mit Sinn",
+                    "author": "Bartoschek, T., Mukhametov, S., Wirwahn, J.",
+                    "type"  : "",
+                    "where" : "Poster at LernortLabor Tagung"
+                }, { 
+                    "title" : " Ori-Gami – An App fostering spatial competency development and spatial learning of children",
+                    "author": "Bartoschek, T. , Schwering, A., Li, R., Münzer, S.",
+                    "type"  : "",
+                    "where" : "In AGILE 2013 Conference Proceedings"
+                },{ 
+                    "title" : "Towards a Usable WebGIS for Schools",
+                    "author": "Dueren, M., Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "Geoinformatik 2013 Conference Proceedings, 13.-15. March "
+                },{ 
+                    "title" : "Geoinformatik in Archäologie und Stadtgeschichte.",
+                    "author": "Bartoschek, T. , Thees, H.",
+                    "type"  : "",
+                    "where" : "Praxis Schule 2/2013, Westermann"
+                },{ 
+                    "title" : "Wenn Schüler zu Wissenschaftlern werden – Geoinformatik-Projekte an der Anne-Frank-Gesamtschule Havixbeck",
+                    "author": "Bartoschek, T., Thees, H.",
+                    "type"  : "",
+                    "where" : "SCHULE.NRW, Ausgabe 3/2013, S. 113 – 115"
+                }
+            ]
+        },{
+            "year" : "2012",
+            "pubs" : [
+                { 
+                    "title" : "Investigating cognitive aspects in digital maps – using VGI to create a child suitable map",
+                    "author": "Rieffel, P., Bartoschek, T. ",
+                    "type"  : "",
+                    "where" : "GI Zeitgeist Conference Proceedings, 16-17. March "
+                }, {
+                    "title" : "VGI in Education- from K-12 to Graduate Studies",
+                    "author": "Bartoschek, T., Keßler, C.",
+                    "type"  : "",
+                    "where" : "Sui, D., Elwood, S., Goodchild, M. (Eds..) Crowdsourcing Geographic Knowledge: Volunteered Geographic Information (VGI) in Theory and Practice. Springer"
+                }
+            ]
+        },{
+            "year" : "2011",
+            "pubs" : [
+                { 
+                    "title" : "Usability testing of the interaction of novices with a multi-touch-table in semi public space",
+                    "author": "Jokisch, M., Bartoschek, T., Schwering, A.",
+                    "type"  : "",
+                    "where" : "Proceedings of the Human Computer Interaction (HCI) Conference, Orlando, USA"
+                }
+            ]
+        },{
+            "year" : "2010",
+            "pubs" : [
+                { 
+                    "title" : "Arbeit mit Geoinformation im Geographieunterricht",
+                    "author": "Schubert, J.C., Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "Learning with Geoinformation V, Wichmann Verlag "
+                },{
+                    "title" : "Geoinformation und GIS",
+                    "author": "Bartoschek, T.",
+                    "type"  : "",
+                    "where" : " Geographie Oberstufe 10-12 NRW, Cornelsen Verlag, 1. Auflage 2010"
+                },{
+                    "title" : "GeospatialLearning@PrimarySchool: A minimal GIS approach",
+                    "author": "Bartoschek, T., Bredel, H., Forster, M.",
+                    "type"  : "",
+                    "where" : "GIScience 2010, Zurich, Switzerland"
+                },{
+                    "title" : "Geospatial Learning @ Primary School",
+                    "author": "Bartoschek, T., Bredel, H., Schlüter, J., Konopatzky, P., Forster, M., Remke, A., Riedemann, C.",
+                    "type"  : "",
+                    "where" : "The 13th AGILE International Conference on Geographic Information Science, Guimaraes, Portugal"
+                }
+            ]
+        },{
+            "year" : "2009",
+            "pubs" : [
+                { 
+                    "title" : "Virtuelle Globen in Schule und Lehrerausbildung",
+                    "author": "Bartoschek, T., Schöning, J.",
+                    "type"  : "",
+                    "where" : "GIS-Ausbildungstagung im GeoForschungsZentrum Potsdam"
+                }, {
+                    "title" : "WebGIS in der Schule – eine Übersicht",
+                    "author": "Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "Praxis Geographie 2/2009, Westermann"
+                }
+            ]
+        },{
+            "year" : "2008",
+            "pubs" : [
+                { 
+                    "title" : "Trends und Potentiale von Virtuellen Globen in Schule, Lehrerausbildung und Wissenschaft",
+                    "author": "Bartoschek, T., Schöning, J",
+                    "type"  : "",
+                    "where" : "GIS.Science 4/2008 Journal"
+                }, {
+                    "title" : "GI@School: Digitale Geoinformation in Lehrer- und Lehramtsausbildung",
+                    "author": "Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "Poster auf der GIS-Ausbildungstagung im GeoForschungsZentrum Potsdam"
+                }
+            ]
+        },{
+            "year" : "2007",
+            "pubs" : [
+                { 
+                    "title" : "GI@School: Digitale Geoinformation im Schulunterricht",
+                    "author": "Bartoschek, T., Gundelsweiler, G",
+                    "type"  : "",
+                    "where" : "Poster auf der GIS-Ausbildungstagung im GeoForschungsZentrum Potsdam"
+                }, {
+                    "title" : "GI@School: Kooperationsmodell Schule-Universität für den Einsatz digitaler Geoinformation im Schulunterricht",
+                    "author": "Gundelsweiler, G, Bartoschek, T.",
+                    "type"  : "",
+                    "where" : "Lernen mit Geoinformation II, Wichmann Verlag"
+                }, {
+                    "title" : "GI@School: GI Education and Marketing at High Schools",
+                    "author": "Bartoschek, T., Gundelsweiler, G",
+                    "type"  : "",
+                    "where" : "Proceedings of the 10th AGILE Conference. Aalborg, Denmark"
+                }
+            ]
+        }
+    ]
+}
