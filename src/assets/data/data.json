@@ -56,7 +56,8 @@
                     "title" : "Spatial Learning with Geospatial Technologies",
                     "author": "Bartoschek, T",
                     "type"  : "PhD Thesis",
-                    "where" : "University of Münster"
+                    "where" : "University of Münster",
+                    "thesis": true
                 },{ 
                     "title" : "OriGami – A Mobile Geogame for Spatial Literac.",
                     "author": "Bartoschek, TBartoschek, T.,  Schwering, A., Li, R., Münzer, S.",

@@ -1,8 +1,9 @@
 @import '../../styles/variables.scss';
 #pubs {
+    min-height: calc(100% - 65px);
     padding-top: 70px;
-    
-    h1 {
+    box-sizing: border-box;
+    .ut-content-wrapper {
         padding-left: 15px;
     }
     h2 {

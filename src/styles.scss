@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import './app/styles/variables.scss';
 
 html, body {
     height: 100%;
@@ -6,6 +7,7 @@ html, body {
     width: 100%;
     // overflow-x: hidden;
     font-family: BrixSlab,Helvetica,sans-serif;
+    color: $textColor;
 }
 
 .ut-content-container {
@@ -23,4 +25,29 @@ html, body {
   src: url(assets/fonts/BrixSlab-Bold.otf);
 }
 
+.fade {
+    opacity: 0.6;
+    font-size: 0.8em;
+}
 
+.ut-button {
+    padding: 0.4em 0.8em;
+    background-color: $gray;
+    border: 1px solid $textColor;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: 0.8;
+    font-weight: bold;
+
+
+    &.active {
+        background-color: $primaryColor;
+        color: white;
+    }
+    &:hover {
+        background-color: white;
+        color: $primaryColor;
+        border-color: $primaryColor;
+    }
+
+}

@@ -1,16 +1,28 @@
 <div id="pubs" class="ut-content-container">
-    <h1> Veröffentlichungen </h1>
+    <div class="ut-content-wrapper">
+        <h1> Veröffentlichungen </h1>
+        <button class="ut-button" [class.active]="showAll" (click)="showAll = true">Alle Veröffentlichungen</button>
+        <button class="ut-button" [class.active]="!showAll" (click)="showAll = false">Thesis</button>
+    </div>
     <ul *ngIf="dataService.data">
         <li *ngFor="let year of dataService.data.publications">
-            <h2>{{year.year}}</h2>
-            <ul>
-                <li class="pub" *ngFor="let pub of year.pubs">
-                    <h3>{{pub.title}}</h3>
-                    <p *ngIf="pub.type"></p>
-                    <p class="authors">{{pub.author}} <ng-container *ngIf="pub.type">({{pub.type}})</ng-container></p>
-                    <p class="where">{{pub.where}}</p>
-                </li>
-            </ul>
+            <div *ngFor="let pub of year.pubs | thesis : showAll ; let k = index" [@fadeIn]="''" >
+
+                <ng-container *ngIf="k == 0">
+                    <h2>{{year.year}}</h2>
+                </ng-container>
+                    <ul>
+    
+                    <li class="pub">
+                        <!-- <ng-container *ngIf="showAll || pub.thesis"> -->
+                            <h3>{{pub.title}}</h3>
+                            <p *ngIf="pub.type"></p>
+                            <p class="authors">{{pub.author}} <ng-container *ngIf="pub.type">({{pub.type}})</ng-container></p>
+                            <p class="where">{{pub.where}}</p>
+                        <!-- </ng-container> -->
+                    </li>
+                </ul>
+            </div>
         </li>
     </ul>
 </div>

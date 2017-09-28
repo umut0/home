@@ -14,6 +14,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { DataService } from './services/data.service';
 import { FooterComponent } from './components/footer/footer.component';
+import { ThesisPipe } from './pipes/thesis.pipe';
 
 
 const appRoutes: Routes = [
@@ -39,7 +40,8 @@ const appRoutes: Routes = [
     PublicationsComponent,
     ImpressumComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ThesisPipe
   ],
   imports: [
     BrowserModule,

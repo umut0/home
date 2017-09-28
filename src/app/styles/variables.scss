@@ -1,9 +1,13 @@
 $primaryColor: #4EBE4B;
 $primaryColorDark: darken($primaryColor, 10%);
 $primaryColorLight: lighten($primaryColor, 5%);
+$primaryColorLightest: lighten($primaryColor, 30%);
+
 $secondaryColor: #45BEED;
 
-$textColor: lighten($secondaryColor, 20%);
+$textColor: #232c2e;
 
 $linkColor: lighten($secondaryColor, 10%);
+
+$gray : #f2f2f2;
 
