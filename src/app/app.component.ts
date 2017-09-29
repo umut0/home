@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, HostListener, Inject } from '@angular/core';
 import { trigger, state, animate, transition, style } from '@angular/animations';
+import { DOCUMENT } from "@angular/platform-browser";
 
 @Component({
   selector: 'ut-root',
@@ -21,5 +22,21 @@ import { trigger, state, animate, transition, style } from '@angular/animations'
   // ]
 })
 export class AppComponent {
-  title = 'ut';
+
+    public scrolled = false;
+    public oldNumber = 0;
+    
+    constructor(@Inject(DOCUMENT) private document: Document) { }
+
+    @HostListener("window:scroll", [])
+    onWindowScroll() {
+        let number = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        if (number > 0 && number > this.oldNumber+5){
+            this.scrolled = true;
+        } else if(number < this.oldNumber) {
+            this.scrolled = false;
+        }
+        this.oldNumber = number;
+        
+    }
 }

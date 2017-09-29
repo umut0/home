@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+#footer {
+    background: #d0d0d0;
+    border-top: 1px solid $primaryColor;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+        position: absolute;
+        right: 0;
+        padding-right: 1em;
+        color: $textColor;
+    }
+}
