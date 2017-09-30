@@ -51,3 +51,18 @@ html, body {
     }
 
 }
+
+.full-img-container {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    max-height: 700px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+
+    @media screen and (min-width: $break-medium) {
+        min-height: 700px;
+    }
+}

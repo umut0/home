@@ -7,8 +7,8 @@
         "topImg" : "assets/img/startTop.jpg",
         "subtitle" : "Learn how to use technologie and spread knowledge, information, data around the globe.",
         "botImg" : "assets/img/startBot.jpg",
-        "contentTitle" : "We Do lots of fun things:",
-        "content" : "For Example this stuff and that stuff and so on",
+        "contentTitle" : "Make Education fun again!",
+        "content" : "Kurzer text über wer wir sind und was wir machen. Warum wir super sind sich alle die folgenden Produkte angucken sollten:",
         "contentBox" : [
             {
                 "title" : "SenseBox",
@@ -20,6 +20,41 @@
                 "title" : "Services",
                 "content" : "Making services"
             }
+        ],
+        "products" : [
+            {
+                "title" : "Produkte",
+                "active" : 0,
+                "content" : [
+                    {
+                        "title": "senseBox:edu",
+                        "text" : "Die Grundlagen des Programmierens in der Schule lernen durch Mikrocontroller und Umweltsensoren mit unserer preisgekrönten <a href='http://sensebox.de'>senseBox:edu.</a>",
+                        "img"  : "assets/img/start/senseBox_edu.jpg"
+                    },{
+                        "title": "senseBox:home",
+                        "text" : "Baut euch eure eigene Wetterstation mit der senseBox:home und vermesst eure Umgebung und die Umwelteinflüsse denen ihr tagtäglich ausgesetzt seid.",
+                        "img"  : "assets/img/start/senseBox_home.JPG"
+                    }, {
+                        "title": "WebGIS Westfalen",
+                        "text"  : "Mit dem WebGIS Westfalen lassen sich online im Handumdrehen übersichtliche thematische Karten über den Raum Westfalen erstellen.",
+                        "img"   : "assets/img/start/webgis_small.jpg"
+                    }
+                ]
+            }, {
+                "title" : "Services",
+                "active" : 0,
+                "content" : [
+                    {
+                        "title": "senseBox:home",
+                        "text" : "Die Grundlagen des Programmierens in der Schule lernen durch Mikrocontroller und Umweltsensoren mit unserer preisgekrönten <a href='http://sensebox.de'>senseBox:edu.</a>",
+                        "img"  : "assets/img/start/senseBox_edu.jpg"
+                    },{
+                        "title": "senseBox:home",
+                        "text" : "Baut euch eure eigene Wetterstation mit der senseBox:home und vermesst eure Umgebung und die Umwelteinflüsse denen ihr tagtäglich ausgesetzt seid.",
+                        "img"  : "assets/img/start/senseBox_home.JPG"
+                    }
+                ]
+            }
         ]
     },
     "team" : {
@@ -29,17 +64,17 @@
                 "name" : "Thomas Bartochek",
                 "title" : "Dr.",
                 "desc" : "Der Leiter und Gründer von GI@School hat langjährige Erfahrungen im Bildungsbereich, im Projektmanagement und Präsentationstechniken vorzuweisen. Er hat über 500 Lehrer fortgebildet und sehr viel praktische Erfahrung in der Lehre gesammelt. Durch die Forschungsarbeit im Rahmen seiner Dissertation war er zudem die treibende Kraft im erfolgreichen Aufbau des Forschungs- und Schülerlabors. Im Unternehmen übernimmt Dr. Bartoschek die Geschäftsführung, wird für Produktdesign und -entwicklung, Kundenakquise und das Verfassen von Anträgen verantwortlich sein.",
-                "img"  : "assets/img/team/umut.jpg"
+                "img"  : "assets/img/team/barto.jpg"
             },{
                 "name" : "Jan Wirwahhn",
                 "title" : "M.Sc. Geoinformatics",
                 "desc" : "Arbeitet momentan als wissenschaftlicher Mitarbeiter im senseBox Projekt. Dort ist er für das Design der Hardware und die Planung von Workshops zuständig. Des weiteren führt er als Dozent am Fachbereich Geowissenschaften praktische Seminare zur Geodatenerhebung und Mikrocontrollerprogrammierung durch. Im Unternehmen wird er für die Weiterentwicklung der senseBox verantwortlich sein, sowie die Hardwareentwicklung von interaktiven Exponaten vorantreiben. Außerdem wird er für die Planung von Seminaren und das Erstellen von Lehrmaterialien zuständig sein",
-                "img"  : "assets/img/team/umut.jpg"
+                "img"  : "assets/img/team/jan.jpg"
             },{
-                "name" : "David",
+                "name" : "David Fehrenbach",
                 "title" : "B.Sc. Economics and Business Administration",
                 "desc" : "Beendet gerade sein Masterstudium in Betriebswirtschaftslehre mit den Schwerpunkten Marketing und Wirtschaftsinformatik an der Universität Münster (Januar 2018). Neben seinem Studium konnte er bereits praktische Erfahrungen in den Bereichen Business Development, Verkauf und Projektmanagement in namhaften Unternehmen sammeln. In den letzten Jahren fokussierte er sich auf die Umsetzung von unternehmerischen Projekten, wie der Gründung einer gemeinnützigen GmbH, oder dem Aufbau eines Software Start-ups. Im Unternehmen wird er für Finanzen, Marketing, Projektmanagement und Kundenakquise und -betreuung verantwortlich sein.",
-                "img"  : "assets/img/team/umut.jpg"
+                "img"  : "assets/img/team/david.jpg"
             },{
                 "name" : "Umut Tas",
                 "title" : "M.Sc. Geoinformatics",

@@ -6,9 +6,19 @@
 
 .img-container {
     position: relative;
-    max-height: 700px;
+    width: 100%;
+    min-height: 500px;
     max-height: 700px;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+
+    @media screen and (min-width: $break-medium) {
+        min-height: 700px;
+    }
+
+
 }
 
 .title {
@@ -76,4 +86,85 @@ ul {
             background-color: rgba(0,0,0,0.5)
         }
     }
+}
+
+.ut-content {
+    padding: 1em;
+}
+
+.ut-product {
+    overflow: hidden;
+    padding: 1em 0 4em 0;
+    h2 {
+        color: $primaryColorDark;
+        border-bottom: 1px solid #ccc;
+        margin-right: 1em;
+    }
+
+    .ut-left-half, .ut-right-half {
+        height: 300px;
+        width: 50%;
+        // display: inline-block;
+        float: left;
+        position: relative;
+        // height: 100%;
+    }
+
+    .productLoop {
+        text-align: center;
+        height: 100%;
+    }
+    .product-text-wrapper {
+        position: absolute;
+        // top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        padding-bottom: 1.5em;
+        margin: auto auto;
+        display: inline-block;
+        text-align: left;
+        max-width: 350px;
+        max-height: 160px;
+        .product-text {
+        }
+    }
+
+    .product-text {
+        font-style: italic;
+    }
+
+    .ut-right-half {
+        padding: 2em 0 1em 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .ut-left-half{
+        // text-align: right;
+    }
+    
+    .slideshow-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        // display: none;
+    }
+
+}
+
+
+.more-info {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    width: 100%;
 }

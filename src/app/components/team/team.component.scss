@@ -1,8 +1,6 @@
 @import "../../styles/variables.scss";
 
-.img-container {
-    position: relative;
-    max-height: 800px;
+.full-img-container {
     overflow: hidden;
 
     h1 {
@@ -26,19 +24,35 @@
     }
     ul {
         list-style: none;
+        padding-left: 0;
     }
 }
 .member {
-    display: flex;
-    padding: 2em;
+    // display: flex;
+    padding: 1em 2em 1em 2em;
+    overflow: auto;
     border-bottom: 1px solid $primaryColor;
-    img {
+    .img-wrapper {
         border-radius: 50%;
         width: 200px;
+        height: 200px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        float: left; 
+        margin: 0 1.5em 1em 0;
     }
     .member-content {
 
         padding: 0em 2em;
-        display: inline-block;
+
+        .title-span {
+            font-style: italic;
+            font-size: 0.9em;
+            font-weight: normal;
+            color: $primaryColorDark;
+        }
+        // display: inline-block;
     }
 }
