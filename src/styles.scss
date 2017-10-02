@@ -66,3 +66,15 @@ html, body {
         min-height: 700px;
     }
 }
+
+.hidden-sm {
+     @media screen and (max-width: $break-small) {
+        display: none;
+    }
+}
+
+.hidden-md {
+     @media screen and (min-width: $break-small) {
+        display: none;
+    }
+}

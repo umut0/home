@@ -13,7 +13,6 @@ export class DataService {
   constructor(private http: Http) { 
       http.get("./assets/data/data.json").subscribe( data => {
           this.data = data.json();
-          console.log(this.data);
           this.subjectData.next(this.data);
           // this.obsData.next(data.json());
       })

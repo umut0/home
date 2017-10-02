@@ -1,11 +1,12 @@
 {
     "nav" : {
-        "logo" : "assets/img/logo.svg"
+        "logo" : "assets/img/logo.svg",
+        "mobileLogo" : "assets/img/favicon.ico"
     },
     "startpage" : {
-        "title": "eduSense make your world better!",
+        "title": "eduSense: Nutze neue Technologien für bessere Bildung!",
         "topImg" : "assets/img/startTop.jpg",
-        "subtitle" : "Learn how to use technologie and spread knowledge, information, data around the globe.",
+        "subtitle" : "Lerne wie man Technologien benutzt und Wissen, Informationen und Daten in der Welt verbreitet.",
         "botImg" : "assets/img/startBot.jpg",
         "contentTitle" : "Make Education fun again!",
         "content" : "Kurzer text über wer wir sind und was wir machen. Warum wir super sind sich alle die folgenden Produkte angucken sollten:",
@@ -139,6 +140,24 @@
                     "type"  : "M.Sc. Thesis in Geoinformatics",
                     "where" : "University of Münster",
                     "thesis": true
+                },{
+                    "title" : "Low-Cost Sensor zur Berechnung der Wolkenbedeckung: Ein Citizen Science Projekt basierend auf Open Source Technologien",
+                    "author": "Felix Erdmann",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "Geostatistical capabilities in OpenSenseMap",
+                    "author": "Marc Dragunski",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "OpenSenseMap – User Centered Design",
+                    "author": "Christopf Kisfeld",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
                 }
                 
             ]
@@ -155,6 +174,30 @@
                     "author": "Pfeil, M., Bartoschek, T., Wirwahn, J.",
                     "type"  : "",
                     "where" : "Academic Track, FOSS4G’15, Seoul, Republic of Korea"
+                },{
+                    "title" : "senseBox:Waterquality – Entwicklung eines Wasserqualitätsmessgerätes auf Basis des Arduino Mikrokontrollers",
+                    "author": "Björn Guntermann",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "SenseBox:Airquality – Entwicklung einer Low-Cost Luqualitätsmessstation auf Basis der SenseBox",
+                    "author": "Mario Pesch",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "Bereinigen und Klassifizieren von Daten gemessen mit der SenseBox",
+                    "author": "Joana Gockel",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "OpenSenseMap – a citizen science platform for publishing and exploring sensor data as open data",
+                    "author": "Matthias Pfeil",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
                 }
             ]
         },{

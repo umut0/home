@@ -42,6 +42,11 @@
         background-size: cover;
         float: left; 
         margin: 0 1.5em 1em 0;
+
+        @media screen and (max-width: $break-small) {
+            float: none;
+        }
+
     }
     .member-content {
 

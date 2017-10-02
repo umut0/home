@@ -55,7 +55,6 @@ export class HomeComponent implements OnInit {
       let that = this;
 
       this.dataService.getData().subscribe( data => {
-          console.log(data.startpage);
           data.startpage.products.forEach(function(item){
               Observable.interval(5000).subscribe(x => {
                   that.increaseCount(item);
