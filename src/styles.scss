@@ -10,6 +10,10 @@ html, body {
     color: $textColor;
 }
 
+body {
+    font-size: 13pt;
+}
+
 .ut-content-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -38,6 +42,7 @@ html, body {
     border-radius: 4px;
     opacity: 0.8;
     font-weight: bold;
+    font-size: 14px;
 
 
     &.active {

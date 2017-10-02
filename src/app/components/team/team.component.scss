@@ -45,12 +45,17 @@
 
         @media screen and (max-width: $break-small) {
             float: none;
+            margin-left: 2em;
         }
 
     }
     .member-content {
 
         padding: 0em 2em;
+
+        p {
+            line-height: 22px;
+        }
 
         .title-span {
             font-style: italic;
