@@ -32,7 +32,7 @@
                         "img"  : "assets/img/start/senseBox_edu.jpg"
                     },{
                         "title": "senseBox:home",
-                        "text" : "Baut euch eure eigene Wetterstation mit der senseBox:home und vermesst eure Umgebung und die Umwelteinflüsse denen ihr tagtäglich ausgesetzt seid.",
+                        "text" : "Baut euch eure eigene Wetterstation mit der <a href='http://sensebox.de'>senseBox:home</a> und vermesst eure Umgebung und die Umwelteinflüsse denen ihr tagtäglich ausgesetzt seid.",
                         "img"  : "assets/img/start/senseBox_home.JPG"
                     }, {
                         "title": "WebGIS Westfalen",
@@ -98,7 +98,49 @@
                     "author": "Bartoschek, TBartoschek, T.,  Schwering, A., Li, R., Münzer, S.",
                     "type"  : "",
                     "where" : "Schlieder, C. Ahlquist, O. (Eds.) Geogames and Geoplay – Game-based Approaches to the Analysis of Geo-Information. Springer."
+                },{
+                    "title" : "Entwicklung und empirische analytische Untersuchung der Usability der visuellen Programmierumgebung senseBlocks",
+                    "author": "Bernd van Rennigs",
+                    "type"  : "M.Sc. Thesis in Education / Computer Science Didactics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "Gamification on Aerial Imagery of Crowds",
+                    "author": "Gebru Welay Gerezigiher",
+                    "type"  : "M.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "Positional Accuracy and Disaster Extent of Geo-Tagged Images using VGI Data",
+                    "author": "Prateek Budwhar",
+                    "type"  : "M.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "Citizen Science in Traffic Monitoring",
+                    "author": "Julius Wittkopp",
+                    "type"  : "M.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{
+                    "title" : "Integration mobiler Sensoren in die Datenstruktur und Nutzeroberfläche der Webplattform openSenseMap",
+                    "author": "Norwin Roosen",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
                 }
+            ]
+        },{
+            "year" : "2016",
+            "pubs" : [
+                {
+                    "title" : "Extending the Geogame OriGami to train Spatial Literacy and Environmental Awareness",
+                    "author": "Emily Harason",
+                    "type"  : "M.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                }
+                
             ]
         },{
             "year" : "2015",
@@ -133,6 +175,12 @@
                     "author": "Caffier, A., Bartoschek, T. , Gierse, K.-U.",
                     "type"  : "",
                     "where" : "NÖV – Nachrichten aus dem öffentlichen Vermessungswesen Nordrhein Westfalen. Ausgabe 1 / 2014, S. 79-85"
+                },{ 
+                    "title" : "WebGIS application with ArcGIS Server for improving the geospatial knowledge in students in High School",
+                    "author": "Pilar Carrega",
+                    "type"  : "M.Sc. Thesis in Geospatial Technologies",
+                    "where" : "University of Münster",
+                    "thesis": true
                 }
             ]
         },{
@@ -203,6 +251,18 @@
                     "author": "Bartoschek, T., Thees, H.",
                     "type"  : "",
                     "where" : "SCHULE.NRW, Ausgabe 3/2013, S. 113 – 115"
+                },{ 
+                    "title" : "Smart Indoor Maps – A Lightweight Indoor Navigation Framework",
+                    "author": "Andres Westermann",
+                    "type"  : "M.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{ 
+                    "title" : "A digital map based on children’s perception of space",
+                    "author": "Phlippe Rieffel",
+                    "type"  : "M.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
                 }
             ]
         },{
@@ -218,6 +278,18 @@
                     "author": "Bartoschek, T., Keßler, C.",
                     "type"  : "",
                     "where" : "Sui, D., Elwood, S., Goodchild, M. (Eds..) Crowdsourcing Geographic Knowledge: Volunteered Geographic Information (VGI) in Theory and Practice. Springer"
+                },{ 
+                    "title" : "Design and Implementation of an Educational Geosoftware for Learning of RDF Triple for Children",
+                    "author": "Serhiy Kachurovskiy",
+                    "type"  : "Diploma Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
+                },{ 
+                    "title" : "Weather SenseBox: An Arduino Based Approach to Integrate the Work on Sensor Platforms in High School Classes",
+                    "author": "Jan Wirwahn",
+                    "type"  : "B.Sc. Thesis in Geoinformatics",
+                    "where" : "University of Münster",
+                    "thesis": true
                 }
             ]
         },{

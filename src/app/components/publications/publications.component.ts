@@ -9,12 +9,12 @@ import { trigger, state, animate, transition, style } from '@angular/animations'
   animations: [
     trigger('fadeIn', [
       transition(':enter', [
-        style({ opacity: '0' }),
-        animate('.5s ease-out', style({ opacity: '1' })),
+        style({ opacity: '0' , height: '0'}),
+        animate('.5s ease-out', style({ opacity: '1' , height: '*'})),
       ]),
       transition(':leave', [
-        style({ opacity: '1' }),
-        animate('.5s ease-out', style({ opacity: '0' })),
+        style({ opacity: '1' , height: '*'}),
+        animate('.5s ease-out', style({ opacity: '0' , height: '0'})),
       ])
     ])
   ]

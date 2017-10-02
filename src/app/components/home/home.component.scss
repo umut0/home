@@ -162,9 +162,14 @@ ul {
 }
 
 
+.bot-img {
+    max-height: 400px;
+    min-height: 400px;
+}
+
 .more-info {
     position: absolute;
-    bottom: 0;
+    bottom: -45px;
     text-align: right;
     width: 100%;
 }

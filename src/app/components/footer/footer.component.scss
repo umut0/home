@@ -1,6 +1,6 @@
 @import '../../styles/variables.scss';
 
-#footer {
+.footer {
     background: #d0d0d0;
     border-top: 1px solid #bfbfbf;
     height: 40px;
@@ -12,6 +12,9 @@
     flex-direction: column;
     justify-content: center;
 
+    .left-footer {
+        padding: 0 0.5em;
+    }
     a {
         position: absolute;
         right: 0;
