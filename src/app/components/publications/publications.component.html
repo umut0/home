@@ -4,20 +4,20 @@
         <button class="ut-button" [class.active]="showAll" (click)="showAll = true">Alle Veröffentlichungen</button>
         <button class="ut-button" [class.active]="!showAll" (click)="showAll = false">Thesis</button>
     </div>
-    <ul *ngIf="dataService.data">
+    <ul *ngIf="dataService.data" class="outside-list">
         <li *ngFor="let year of dataService.data.publications">
             <div *ngFor="let pub of year.pubs | thesis : showAll ; let k = index" [@fadeIn]="''" >
 
                 <ng-container *ngIf="k == 0">
                     <h2>{{year.year}}</h2>
                 </ng-container>
-                    <ul>
+                    <ul class="inside-list">
     
                     <li class="pub">
                         <!-- <ng-container *ngIf="showAll || pub.thesis"> -->
                             <h3>{{pub.title}}</h3>
                             <p *ngIf="pub.type"></p>
-                            <p class="authors">{{pub.author}} <ng-container *ngIf="pub.type">({{pub.type}})</ng-container></p>
+                            <p class="authors">{{pub.author}} <span class="thesis" *ngIf="pub.type">({{pub.type}})</span></p>
                             <p class="where">{{pub.where}}</p>
                         <!-- </ng-container> -->
                     </li>
