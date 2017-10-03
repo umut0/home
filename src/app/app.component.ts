@@ -1,6 +1,7 @@
-import { Component, HostListener, Inject } from '@angular/core';
+import { Component, HostListener, Inject, OnInit } from '@angular/core';
 import { trigger, state, animate, transition, style } from '@angular/animations';
 import { DOCUMENT } from "@angular/platform-browser";
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'ut-root',
@@ -21,12 +22,12 @@ import { DOCUMENT } from "@angular/platform-browser";
   //   ])
   // ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
     public scrolled = false;
     public oldNumber = 0;
     
-    constructor(@Inject(DOCUMENT) private document: Document) { }
+    constructor(@Inject(DOCUMENT) private document: Document, private router: Router) { }
 
     @HostListener("window:scroll", [])
     onWindowScroll() {
@@ -38,5 +39,14 @@ export class AppComponent {
         }
         this.oldNumber = number;
         
+    }
+
+    ngOnInit(){
+        this.router.events.subscribe((evt) => {
+            if (!(evt instanceof NavigationEnd)) {
+                return;
+            }
+            window.scrollTo(0, 0)
+        });
     }
 }
