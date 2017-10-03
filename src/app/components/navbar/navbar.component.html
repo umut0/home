@@ -1,6 +1,6 @@
 <nav>
-    <img  *ngIf="dataService.data" class="nav-left hidden-sm" routerLink="" [src]="dataService.data.nav.logo" alt="">
-    <img *ngIf="dataService.data" class="nav-left-mobile hidden-md" routerLink="" [src]="dataService.data.nav.mobileLogo" alt="">
+    <div  *ngIf="dataService.data" class="nav-left hidden-sm" routerLink="" [style.backgroundImage]="'url(' + dataService.data.nav.logo + ')'"></div>
+    <div *ngIf="dataService.data" class="nav-left-mobile hidden-md" routerLink="" [style.backgroundImage]="'url(' + dataService.data.nav.mobileLogo + ')'"></div>
     <div class="nav-right">
         <ul>
             <li><a routerLink="team" [routerLinkActive]="['active']">Team</a></li>

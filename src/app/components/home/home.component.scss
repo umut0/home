@@ -178,3 +178,13 @@ ul {
     text-align: right;
     width: 100%;
 }
+
+
+.ut-product:nth-child(2) {
+    .ut-left-half {
+        float: right;
+    }
+    .ut-right-half {
+        float: left;
+    }
+}

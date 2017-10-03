@@ -35,10 +35,24 @@
                         "title": "senseBox:home",
                         "text" : "Baut euch eure eigene Wetterstation mit der <a href='http://sensebox.de'>senseBox:home</a> und vermesst eure Umgebung und die Umwelteinflüsse denen ihr tagtäglich ausgesetzt seid.",
                         "img"  : "assets/img/start/senseBox_home.JPG"
-                    }, {
-                        "title": "WebGIS Westfalen",
-                        "text"  : "Mit dem WebGIS Westfalen lassen sich online im Handumdrehen übersichtliche thematische Karten über den Raum Westfalen erstellen.",
-                        "img"   : "assets/img/start/webgis_small.jpg"
+                    }
+                ]
+            }, {
+                "title" : "Workshops",
+                "active" : 0,
+                "content" : [
+                    {
+                        "title": "Zukunft",
+                        "text" : "Erlerne neue Technologien in unseren Laboren",
+                        "img"  : "assets/img/start/workshop3.jpg"
+                    },{
+                        "title": "Praxis",
+                        "text" : "Benutze moderne Technologien um aktuelle Probleme aufzuzeigen und zu lösen.",
+                        "img"  : "assets/img/start/workshop5.jpg"
+                    },{
+                        "title": "Schüler",
+                        "text" : "",
+                        "img"  : "assets/img/start/workshop6.jpg"
                     }
                 ]
             }, {
@@ -46,13 +60,9 @@
                 "active" : 0,
                 "content" : [
                     {
-                        "title": "senseBox:home",
-                        "text" : "Die Grundlagen des Programmierens in der Schule lernen durch Mikrocontroller und Umweltsensoren mit unserer preisgekrönten <a href='http://sensebox.de'>senseBox:edu.</a>",
-                        "img"  : "assets/img/start/senseBox_edu.jpg"
-                    },{
-                        "title": "senseBox:home",
-                        "text" : "Baut euch eure eigene Wetterstation mit der senseBox:home und vermesst eure Umgebung und die Umwelteinflüsse denen ihr tagtäglich ausgesetzt seid.",
-                        "img"  : "assets/img/start/senseBox_home.JPG"
+                        "title": "WebGIS Westfalen",
+                        "text"  : "Mit dem WebGIS Westfalen lassen sich online im Handumdrehen übersichtliche thematische Karten über den Raum Westfalen erstellen.",
+                        "img"   : "assets/img/start/webgis_small.jpg"
                     }
                 ]
             }

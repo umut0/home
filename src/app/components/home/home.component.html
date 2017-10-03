@@ -11,23 +11,24 @@
             <div class="ut-content content">
                 <h2>{{dataService.data.startpage.contentTitle}}</h2>
                 <p> {{dataService.data.startpage.content}} </p>
-
-                <div class="ut-product" *ngFor="let product of dataService.data.startpage.products">
-                    <h2>{{product.title}}</h2>
-                    <div class="ut-left-half">
-                        <div class="productLoop" *ngFor="let content of product.content; let k = index">
-                            <div class="product-text-wrapper" *ngIf="k == product.active" [@fadeInOut]="k == product.active">
-                                <h3>{{content.title}}</h3>
-                                <p class="product-text" [innerHtml]="content.text"></p>
-                                <p class="fade more-info">Bald mehr Infos hier!</p>
+                <div class="product-container">
+                    <div class="ut-product" *ngFor="let product of dataService.data.startpage.products">
+                        <h2>{{product.title}}</h2>
+                        <div class="ut-left-half">
+                            <div class="productLoop" *ngFor="let content of product.content; let k = index">
+                                <div class="product-text-wrapper" *ngIf="k == product.active" [@fadeInOut]="k == product.active">
+                                    <h3>{{content.title}}</h3>
+                                    <p class="product-text" [innerHtml]="content.text"></p>
+                                    <p class="fade more-info">Bald mehr Infos hier!</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="ut-right-half">
-                        <ng-container *ngFor="let content of product.content; let k = index">
-                            <div *ngIf="k == product.active" class="slideshow-img"  [style.backgroundImage]="'url(' + content.img + ')'" [@slideInOut]="k==product.active">
-                            </div>
-                        </ng-container>
+                        <div class="ut-right-half">
+                            <ng-container *ngFor="let content of product.content; let k = index">
+                                <div *ngIf="k == product.active" class="slideshow-img"  [style.backgroundImage]="'url(' + content.img + ')'" [@slideInOut]="k==product.active">
+                                </div>
+                            </ng-container>
+                        </div>
                     </div>
                 </div>
 

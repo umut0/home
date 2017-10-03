@@ -1,5 +1,8 @@
 @import '../../styles/variables.scss';
 
+nav {
+    height: 100%;
+}
 .nav-left {
     height: 100%;
     float: left;
@@ -7,14 +10,28 @@
     max-height: 64px;
     cursor: pointer;
     user-select: none;
+    width: 175px;
+      background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+
+    .logo-container {
+        height: 100%;
+        width: 175px;
+    }
 }
 
 .nav-left-mobile {
 
     height: 100%;
-    padding-left: 1em;
-    padding-top: 10px;
+    margin-left: 1em;
+    display: inline-block;
+    // mar-top: 10px;
     user-select: none;   
+    width: 30px;
+          background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
 
 }
 
