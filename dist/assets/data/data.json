@@ -5,7 +5,7 @@
     },
     "startpage" : {
         "title": "eduSense: Nutze neue Technologien für bessere Bildung!",
-        "topImg" : "assets/img/startTop.jpg",
+        "topImg" : "assets/img/start/senseBox_edu.jpg",
         "subtitle" : "Lerne wie man Technologien benutzt und Wissen, Informationen und Daten in der Welt verbreitet.",
         "botImg" : "assets/img/startBot.jpg",
         "contentTitle" : "Make Education fun again!",
@@ -30,7 +30,7 @@
                     {
                         "title": "senseBox:edu",
                         "text" : "Die Grundlagen des Programmierens in der Schule lernen durch Mikrocontroller und Umweltsensoren mit unserer preisgekrönten <a href='http://sensebox.de'>senseBox:edu.</a>",
-                        "img"  : "assets/img/start/senseBox_edu.jpg"
+                        "img"  : "assets/img/start/edu1.jpg"
                     },{
                         "title": "senseBox:home",
                         "text" : "Baut euch eure eigene Wetterstation mit der <a href='http://sensebox.de'>senseBox:home</a> und vermesst eure Umgebung und die Umwelteinflüsse denen ihr tagtäglich ausgesetzt seid.",
@@ -60,6 +60,10 @@
                 "active" : 0,
                 "content" : [
                     {
+                        "title": "OpenSenseMap",
+                        "text"  : "Erkunde alle Daten die weltweit mit SenseBoxes erhoben wurden.",
+                        "img"   : "assets/img/start/sensemap.jpg"
+                    }, {
                         "title": "WebGIS Westfalen",
                         "text"  : "Mit dem WebGIS Westfalen lassen sich online im Handumdrehen übersichtliche thematische Karten über den Raum Westfalen erstellen.",
                         "img"   : "assets/img/start/webgis_small.jpg"

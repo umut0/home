@@ -3,14 +3,22 @@
 .footer {
     background: #d0d0d0;
     border-top: 1px solid #bfbfbf;
-    height: 40px;
     width: 100%;
     position: relative;
     z-index: 5;
     vertical-align: middle;
     display: flex;
-    flex-direction: column;
+    text-align: center;
+    // flex-direction: column;
+    // justify-content: center;
+    align-items: center;
     justify-content: center;
+    height: 40px;
+
+    @media screen and (max-width: $break-small){
+        flex-direction: column;
+        height: auto;
+    }
 
     .left-footer {
         padding: 0 0.5em;
@@ -19,10 +27,20 @@
             height: 100%;
         }
     }
-    a {
-        position: absolute;
-        right: 0;
-        padding-right: 1em;
-        color: $textColor;
+
+    .center-footer {
+        a {
+            padding: 0 0.3em
+        }
+    }
+    // a {
+    //     position: absolute;
+    //     right: 0;
+    //     padding-right: 1em;
+    //     color: $textColor;
+    // }
+
+    .footer-box {
+        flex: 1;
     }
 }
