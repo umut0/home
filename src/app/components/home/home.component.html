@@ -1,4 +1,4 @@
-<div id="home-container" *ngIf="dataService.data">
+<div id="home-container" *ngIf="dataService.data" [@fadeInOut]="dataService.data">
     
     <div class="full-img-container img-container" [style.backgroundImage]="'url(' + dataService.data.startpage.topImg + ')'">
         <!-- <img class="top-img" [src]="dataService.data.startpage.topImg"> -->

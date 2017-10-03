@@ -1,4 +1,4 @@
-<div id="team" *ngIf="dataService.data">
+<div id="team" *ngIf="dataService.data" [@fadeInOut]="dataService.data">
     <div class="full-img-container" [style.backgroundImage]="'url(' + dataService.data.team.teamImg + ')'">
         <h1>Best Team in the World</h1>
     </div>
