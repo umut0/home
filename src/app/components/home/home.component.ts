@@ -49,14 +49,17 @@ import {Observable} from 'rxjs/Rx';
 
 export class HomeComponent implements OnInit {
 
+  public obs = [];
+
   constructor(public dataService: DataService) { }
 
   ngOnInit() {
       let that = this;
 
       this.dataService.getData().subscribe( data => {
-          data.startpage.products.forEach(function(item){
-              Observable.interval(7500).subscribe(x => {
+          data.startpage.products.forEach(function(item,index){
+              console.log(that.obs);
+              that.obs[index] = Observable.interval(7500).subscribe(x => {
                   that.increaseCount(item);
               });
           });
@@ -70,10 +73,32 @@ export class HomeComponent implements OnInit {
     // });
   }
 
+  resetObs(){
+      this.obs.forEach(function(ob){
+          console.log(ob);
+          ob.unsubscribe();
+          ob.subscribe();
+      })
+  }
+
   increaseCount(item){
       item.active++;
       if (item.active >= item.content.length) {
           item.active = 0;
+      }
+  }
+  increaseCountClick(item){
+      // this.resetObs();
+      item.active++;
+      if (item.active >= item.content.length) {
+          item.active = 0;
+      }
+  }
+  decreaseCountClick(item){
+      // this.resetObs();
+      item.active--;
+      if (item.active < 0) {
+          item.active = item.content.length-1;
       }
   }
 

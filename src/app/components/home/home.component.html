@@ -23,15 +23,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="ut-right-half">
+                        <div class="ut-right-half" (swipeleft)="decreaseCountClick(product)" (swiperight)="increaseCountClick(product)">
                             <ng-container *ngFor="let content of product.content; let k = index">
                                 <div *ngIf="k == product.active" class="slideshow-img"  [style.backgroundImage]="'url(' + content.img + ')'" [@slideInOut]="k==product.active">
                                 </div>
                             </ng-container>
+                            <div class="left-arrow"><i class="fa fa-chevron-left" aria-hidden="true" (click)="decreaseCountClick(product)"></i></div>
+                            <div class="right-arrow"><i class="fa fa-chevron-right" aria-hidden="true" (click)="increaseCountClick(product)"></i></div>
                         </div>
-                        <div class="product-nav">
+                        <!-- <div class="product-nav">
                             <div class="product-nav-item" *ngFor="let content of product.content; let k = index" [class.active]="k == product.active" (click)="product.active = k" title="{{content.title}}"></div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
