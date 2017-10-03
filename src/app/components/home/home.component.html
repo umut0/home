@@ -29,6 +29,9 @@
                                 </div>
                             </ng-container>
                         </div>
+                        <div class="product-nav">
+                            <div class="product-nav-item" *ngFor="let content of product.content; let k = index" [class.active]="k == product.active" (click)="product.active = k" title="{{content.title}}"></div>
+                        </div>
                     </div>
                 </div>
 

@@ -56,7 +56,7 @@ export class HomeComponent implements OnInit {
 
       this.dataService.getData().subscribe( data => {
           data.startpage.products.forEach(function(item){
-              Observable.interval(5000).subscribe(x => {
+              Observable.interval(7500).subscribe(x => {
                   that.increaseCount(item);
               });
           });
