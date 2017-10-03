@@ -101,9 +101,15 @@ ul {
         margin-right: 1em;
     }
 
+    .ut-left-half {
+        width: 45%;
+    }
+    .ut-right-half {
+        width: 55%;
+    }
+
     .ut-left-half, .ut-right-half {
         height: 300px;
-        width: 50%;
         // display: inline-block;
         float: left;
         position: relative;
