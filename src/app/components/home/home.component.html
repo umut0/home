@@ -10,7 +10,7 @@
         <div class="wrapper">
             <div class="ut-content content">
                 <h2>{{dataService.data.startpage.contentTitle}}</h2>
-                <p> {{dataService.data.startpage.content}} </p>
+                <div [innerHTML]="dataService.data.startpage.content">  </div>
                 <div class="product-container">
                     <div class="ut-product" *ngFor="let product of dataService.data.startpage.products">
                         <h2>{{product.title}}</h2>

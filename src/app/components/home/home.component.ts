@@ -75,13 +75,14 @@ export class HomeComponent implements OnInit {
 
   resetObs(){
       this.obs.forEach(function(ob){
-          console.log(ob);
           ob.unsubscribe();
           ob.subscribe();
+          // ob.subscribe();
       })
   }
 
   increaseCount(item){
+      console.log(this.obs)
       item.active++;
       if (item.active >= item.content.length) {
           item.active = 0;

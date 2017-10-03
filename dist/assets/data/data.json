@@ -9,7 +9,7 @@
         "subtitle" : "Lerne wie man Technologien benutzt und Wissen, Informationen und Daten in der Welt verbreitet.",
         "botImg" : "assets/img/startBot.jpg",
         "contentTitle" : "Make Education fun again!",
-        "content" : "Kurzer text über wer wir sind und was wir machen. Warum wir super sind sich alle die folgenden Produkte angucken sollten:",
+        "content" : "<p>eduSense basiert auf den Erfahrungen, Entwicklungen und Forschungsergebnissen von 10 Jahren Arbeit am Forschungs- und Schülerlabor GI@School! </p><p>Bei Schüler- und Lehrerworkshops zu Themenbereichen wie Mikrocontroller-Programmierung, Umweltsensorik, Appentwicklung, Modelierung von Geodaten oder 3D Druck steht die praxisnahe und praktische Arbeit im Vordergrund. </p><p>Damit richten wir uns an Bildungseinrichtungen um sie bei der Umsetzung einer projektorientieren Unterrichtsgestaltung in den MINT Fächern zu unterstützen.</p><p>Unsere senseBox und openSenseMap sind prominente Beispiele für eine erfolgreiche Anwendung in der digitalen Bildung!</p>",
         "contentBox" : [
             {
                 "title" : "SenseBox",
