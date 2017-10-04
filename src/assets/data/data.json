@@ -8,8 +8,8 @@
         "topImg" : "assets/img/start/senseBox_edu.jpg",
         "subtitle" : "Lerne wie man Technologien benutzt und Wissen, Informationen und Daten in der Welt verbreitet.",
         "botImg" : "assets/img/startBot.jpg",
-        "contentTitle" : "Make Education fun again!",
-        "content" : "<p>eduSense basiert auf den Erfahrungen, Entwicklungen und Forschungsergebnissen von 10 Jahren Arbeit am Forschungs- und Schülerlabor GI@School! </p><p>Bei Schüler- und Lehrerworkshops zu Themenbereichen wie Mikrocontroller-Programmierung, Umweltsensorik, Appentwicklung, Modelierung von Geodaten oder 3D Druck steht die praxisnahe und praktische Arbeit im Vordergrund. </p><p>Damit richten wir uns an Bildungseinrichtungen um sie bei der Umsetzung einer projektorientieren Unterrichtsgestaltung in den MINT Fächern zu unterstützen.</p><p>Unsere senseBox und openSenseMap sind prominente Beispiele für eine erfolgreiche Anwendung in der digitalen Bildung!</p>",
+        "contentTitle" : "So macht das lernen wieder Spass!",
+        "content" : "<p>eduSense basiert auf den Erfahrungen, Entwicklungen und Forschungsergebnissen aus <span class='highlight'>10 Jahren</span> Arbeit am Forschungs- und Schülerlabor <a href='http://www.uni-muenster.de/Geoinformatics/gi-at-school/' target='_blank'>GI@School</a>! </p><p>Bei Schüler- und Lehrerworkshops zu Themenbereichen wie Mikrocontroller-Programmierung, Umweltsensorik, Appentwicklung, Modelierung von Geodaten oder 3D Druck steht die <span class='highlight'>praxisnahe und praktische Arbeit</span> im Vordergrund. </p><p>Damit richten wir uns an Bildungseinrichtungen um sie bei der Umsetzung einer <span class='highlight'>projektorientieren Unterrichtsgestaltung</span> in den MINT Fächern zu unterstützen.</p><p>Unsere <a href='http://sensebox.de' target='_blank'>senseBox</a> und <a href='http://opensensemap.de' target='_blank'>openSenseMap</a> sind prominente Beispiele für eine erfolgreiche Anwendung in der <span class='highlight'>digitalen Bildung</span>!</p>",
         "contentBox" : [
             {
                 "title" : "SenseBox",
@@ -50,8 +50,8 @@
                         "text" : "Benutze moderne Technologien um aktuelle Probleme aufzuzeigen und zu lösen.",
                         "img"  : "assets/img/start/workshop5.jpg"
                     },{
-                        "title": "Schüler",
-                        "text" : "",
+                        "title": "Schule",
+                        "text" : "Lehrreiche Workshops für Lehrer und Schüler!.",
                         "img"  : "assets/img/start/workshop6.jpg"
                     }
                 ]

@@ -2,17 +2,20 @@
     
     <div class="full-img-container img-container" [style.backgroundImage]="'url(' + dataService.data.startpage.topImg + ')'">
         <!-- <img class="top-img" [src]="dataService.data.startpage.topImg"> -->
-        <div class="title"><h1>{{dataService.data.startpage.title}}</h1></div>
+        <div class="title"><h1>{{dataService.data.startpage.title}}</h1></div>x
         <div class="subtitle"><h2>{{dataService.data.startpage.subtitle}}</h2></div>
     </div>
     
-    <div class="ut-content-container">
-        <div class="wrapper">
-            <div class="ut-content content">
+    
+    <div class="wrapper">
+        <div class="ut-content content">
+            <div class="text-content-wrapper ut-content-container">
                 <h2>{{dataService.data.startpage.contentTitle}}</h2>
                 <div [innerHTML]="dataService.data.startpage.content">  </div>
-                <div class="product-container">
-                    <div class="ut-product" *ngFor="let product of dataService.data.startpage.products">
+            </div>
+            <div class="product-container">
+                <div class="ut-product" *ngFor="let product of dataService.data.startpage.products">
+                    <div class="ut-content-container">
                         <h2>{{product.title}}</h2>
                         <div class="ut-left-half">
                             <div class="productLoop" *ngFor="let content of product.content; let k = index">
@@ -31,25 +34,26 @@
                             <div class="left-arrow"><i class="fa fa-chevron-left" aria-hidden="true" (click)="decreaseCountClick(product)"></i></div>
                             <div class="right-arrow"><i class="fa fa-chevron-right" aria-hidden="true" (click)="increaseCountClick(product)"></i></div>
                         </div>
-                        <!-- <div class="product-nav">
-                            <div class="product-nav-item" *ngFor="let content of product.content; let k = index" [class.active]="k == product.active" (click)="product.active = k" title="{{content.title}}"></div>
-                        </div> -->
                     </div>
+                    <!-- <div class="product-nav">
+                        <div class="product-nav-item" *ngFor="let content of product.content; let k = index" [class.active]="k == product.active" (click)="product.active = k" title="{{content.title}}"></div>
+                    </div> -->
                 </div>
-
-                <!-- <ul>
-                    <li *ngFor="let box of dataService.data.startpage.contentBox" class="container">
-                        <div class="box">
-                            <div class="box-inlay">
-                                <h3>{{box.title}}</h3>
-                            </div>
-                            <div class="box-overlay">{{box.content}} <p>Erfahre bald mehr!</p></div>
-                        </div>
-                    </li>
-                </ul> -->
             </div>
+
+            <!-- <ul>
+                <li *ngFor="let box of dataService.data.startpage.contentBox" class="container">
+                    <div class="box">
+                        <div class="box-inlay">
+                            <h3>{{box.title}}</h3>
+                        </div>
+                        <div class="box-overlay">{{box.content}} <p>Erfahre bald mehr!</p></div>
+                    </div>
+                </li>
+            </ul> -->
         </div>
     </div>
+    
 
     <div class="full-img-container img-container bot-img" [style.backgroundImage]="'url(' + dataService.data.startpage.botImg + ')'">
         <!-- <img class="bot-img" [src]="dataService.data.startpage.botImg"> -->

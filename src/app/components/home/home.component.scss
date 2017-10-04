@@ -89,16 +89,30 @@ ul {
 }
 
 .ut-content {
-    padding: 1em;
+    // padding: 1em;
+    font-size: 19px;
+    line-height: 23px;
+    // background-image: url("/assets/img/favicon.ico");
+    // background-repeat: no-repeat;
+    // background-position: center; 
+    // background-size: cover;
+    .text-content-wrapper {
+        padding: 2em;
+        @media screen and (max-width: $break-small){
+            padding: 1em 0;
+        }
+    }
+
 }
 
 .ut-product {
     overflow: hidden;
-    padding: 1em 0 2em 0;
+    padding: 2em 2em 3em 2em;
     h2 {
         color: $primaryColorDark;
-        border-bottom: 1px solid #ccc;
+        // border-bottom: 1px solid #ccc;
         margin-right: 1em;
+        font-size:35px;
     }
 
     .ut-left-half {
@@ -178,6 +192,9 @@ ul {
         text-align: center;
         height: 100%;
     }
+    
+
+
     .product-text-wrapper {
         position: absolute;
         // top: 0;
@@ -192,7 +209,7 @@ ul {
         max-width: 350px;
         max-height: 160px;
         .product-text {
-            line-height: 23px;
+            // line-height: 23px;
         }
     }
 
@@ -239,6 +256,10 @@ ul {
     width: 100%;
 }
 
+
+.ut-product:nth-child(odd){
+    background: #f3f3f3;
+}
 
 .ut-product:nth-child(2) {
     .ut-left-half {
