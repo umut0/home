@@ -27,6 +27,10 @@
         padding-left: 0;
     }
 }
+
+.member:last-child {
+    border-bottom: none;
+}
 .member {
     // display: flex;
     padding: 1em 2em 1em 2em;
