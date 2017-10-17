@@ -12,7 +12,7 @@
         "content" : "<p>eduSense basiert auf den Erfahrungen, Entwicklungen und Forschungsergebnissen aus <span class='highlight'>10 Jahren</span> Arbeit am Forschungs- und Schülerlabor <a href='http://www.uni-muenster.de/Geoinformatics/gi-at-school/' target='_blank'>GI@School</a>! </p><p>Bei Schüler- und Lehrerworkshops zu Themenbereichen wie Mikrocontroller-Programmierung, Umweltsensorik, Appentwicklung, Modelierung von Geodaten oder 3D Druck steht die <span class='highlight'>praxisnahe und praktische Arbeit</span> im Vordergrund. </p><p>Damit richten wir uns an Bildungseinrichtungen um sie bei der Umsetzung einer <span class='highlight'>projektorientieren Unterrichtsgestaltung</span> in den MINT Fächern zu unterstützen.</p><p>Unsere <a href='http://sensebox.de' target='_blank'>senseBox</a> und <a href='http://opensensemap.de' target='_blank'>openSenseMap</a> sind prominente Beispiele für eine erfolgreiche Anwendung in der <span class='highlight'>digitalen Bildung</span>!</p>",
         "contentBox" : [
             {
-                "title" : "SenseBox",
+                "title" : "senseBox",
                 "content" : "Awesome sensor Box"
             },{
                 "title" : "Workshops",
@@ -60,7 +60,7 @@
                 "active" : 0,
                 "content" : [
                     {
-                        "title": "OpenSenseMap",
+                        "title": "openSenseMap",
                         "text"  : "Erkunde alle Daten die weltweit mit SenseBoxes erhoben wurden.",
                         "img"   : "assets/img/start/sensemap.jpg"
                     }, {
@@ -79,22 +79,26 @@
                 "name" : "Thomas Bartochek",
                 "title" : "Dr.",
                 "desc" : "Der Leiter und Gründer von GI@School hat langjährige Erfahrungen im Bildungsbereich, im Projektmanagement und Präsentationstechniken vorzuweisen. Er hat über 500 Lehrer fortgebildet und sehr viel praktische Erfahrung in der Lehre gesammelt. Durch die Forschungsarbeit im Rahmen seiner Dissertation war er zudem die treibende Kraft im erfolgreichen Aufbau des Forschungs- und Schülerlabors. Im Unternehmen übernimmt Dr. Bartoschek die Geschäftsführung, wird für Produktdesign und -entwicklung, Kundenakquise und das Verfassen von Anträgen verantwortlich sein.",
-                "img"  : "assets/img/team/barto.jpg"
+                "img"  : "assets/img/team/barto.jpg",
+                "img2"  : "assets/img/team/barto.jpg"
             },{
                 "name" : "Jan Wirwahhn",
                 "title" : "M.Sc. Geoinformatics",
                 "desc" : "Arbeitet momentan als wissenschaftlicher Mitarbeiter im senseBox Projekt. Dort ist er für das Design der Hardware und die Planung von Workshops zuständig. Des weiteren führt er als Dozent am Fachbereich Geowissenschaften praktische Seminare zur Geodatenerhebung und Mikrocontrollerprogrammierung durch. Im Unternehmen wird er für die Weiterentwicklung der senseBox verantwortlich sein, sowie die Hardwareentwicklung von interaktiven Exponaten vorantreiben. Außerdem wird er für die Planung von Seminaren und das Erstellen von Lehrmaterialien zuständig sein",
-                "img"  : "assets/img/team/jan.jpg"
+                "img"  : "assets/img/team/jan.jpg",
+                "img2"  : "assets/img/team/jan.jpg"
             },{
                 "name" : "David Fehrenbach",
                 "title" : "B.Sc. Economics and Business Administration",
                 "desc" : "Beendet gerade sein Masterstudium in Betriebswirtschaftslehre mit den Schwerpunkten Marketing und Wirtschaftsinformatik an der Universität Münster (Januar 2018). Neben seinem Studium konnte er bereits praktische Erfahrungen in den Bereichen Business Development, Verkauf und Projektmanagement in namhaften Unternehmen sammeln. In den letzten Jahren fokussierte er sich auf die Umsetzung von unternehmerischen Projekten, wie der Gründung einer gemeinnützigen GmbH, oder dem Aufbau eines Software Start-ups. Im Unternehmen wird er für Finanzen, Marketing, Projektmanagement und Kundenakquise und -betreuung verantwortlich sein.",
-                "img"  : "assets/img/team/david.jpg"
+                "img"  : "assets/img/team/david.jpg",
+                "img2"  : "assets/img/team/david2.jpeg"
             },{
                 "name" : "Umut Tas",
                 "title" : "M.Sc. Geoinformatics",
                 "desc" : "Ist freiberuflicher Softwareentwickler und hat nach seinem Abschluss am Institut für Geoinformatik (2013) in verschiedenen Startups in Hamburg und Berlin gearbeitet. In dieser Zeit hat er hat sich auf Webentwicklung und insbesondere auf die Visualisierung von Geodaten im Web spezialisiert. Im Unternehmen wird er für Softwareentwicklung, insb. im Bereich Web und Datenvisualisierung verantwortlich sein.",
-                "img"  : "assets/img/team/umut.jpg"
+                "img"  : "assets/img/team/umut.jpg",
+                "img2"  : "assets/img/team/umut2.jpg"
             }
         ]
     },

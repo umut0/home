@@ -30,11 +30,12 @@
 .member {
     // display: flex;
     padding: 1em 2em 1em 2em;
+    position: relative;
+    overflow: hidden;
     @media screen and (min-width: $break-small) {
         padding-bottom: 2em;
     }
 
-    overflow: auto;
     border-bottom: 1px solid $primaryColor;
     .img-wrapper {
         border-radius: 50%;
@@ -53,8 +54,21 @@
         }
 
     }
-    .member-content {
 
+    .second-img-wrapper {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        border-top-left-radius: 100%;
+        width: 33%;
+        top: 0;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+    }
+
+    .member-content {
+        position: relative;
         padding: 0em 2em;
 
         p {
@@ -70,3 +84,76 @@
         // display: inline-block;
     }
 }
+
+
+.tic-overlay {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.5);
+}
+.tilted-image-container {
+    @media screen and (max-width: $break-small){
+        display: none;
+    }
+    position: absolute;
+    // width: 35%;
+    right: -130px;
+    top: 0;
+    z-index: -2;
+    transform: skewX(-43.64deg);
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+    
+    img {
+        width: 100%;
+        transform: skewX(43.64deg);
+
+    }
+}
+// .pageOption {
+//     position: absolute;
+//     height: 27em;
+//     padding-top: 10%;
+//     z-index: -1;
+//     width: 40em;
+// }
+
+// .optionCover {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     background: rgba(255,255,255,0.7);
+//     z-index: 0;
+// }
+
+
+// TRY
+
+// .pageOption {
+//   overflow: hidden;
+// }
+// .option, .option img { width: 100%; height: 100%; }
+// .option {
+//   overflow: hidden;
+//   position: absolute;  
+//   /* arctan(27 / 40) = 34.01935deg 
+//    * need to skew by 90deg - 34.01935deg = 55.98065deg
+//   */
+//   transform: skewX(-55.98deg);
+// }
+// .option:first-child {
+//   left: -.25em;
+//   transform-origin: 100% 0;
+// }
+// .option:last-child {
+//   right: -.25em;
+//   transform-origin: 0 100%;
+// }
+// .option img {
+//   transform: skewX(55.98deg);
+//   transform-origin: inherit;
+// }
