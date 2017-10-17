@@ -77,7 +77,7 @@
         "members" : [
             {
                 "name" : "Thomas Bartochek",
-                "title" : "Dr.",
+                "title" : "PhD Geoinformatics.",
                 "desc" : "Der Leiter und Gründer von GI@School hat langjährige Erfahrungen im Bildungsbereich, im Projektmanagement und Präsentationstechniken vorzuweisen. Er hat über 500 Lehrer fortgebildet und sehr viel praktische Erfahrung in der Lehre gesammelt. Durch die Forschungsarbeit im Rahmen seiner Dissertation war er zudem die treibende Kraft im erfolgreichen Aufbau des Forschungs- und Schülerlabors. Im Unternehmen übernimmt Dr. Bartoschek die Geschäftsführung, wird für Produktdesign und -entwicklung, Kundenakquise und das Verfassen von Anträgen verantwortlich sein.",
                 "img"  : "assets/img/team/barto.jpg",
                 "img2"  : "assets/img/team/barto.jpg"
@@ -113,7 +113,7 @@
                     "where" : "University of Münster",
                     "thesis": true
                 },{ 
-                    "title" : "OriGami – A Mobile Geogame for Spatial Literac.",
+                    "title" : "OriGami – A Mobile Geogame for Spatial Literacy.",
                     "author": "Bartoschek, T.,  Schwering, A., Li, R., Münzer, S.",
                     "type"  : "",
                     "where" : "Schlieder, C. Ahlquist, O. (Eds.) Geogames and Geoplay – Game-based Approaches to the Analysis of Geo-Information. Springer."
@@ -121,24 +121,6 @@
                     "title" : "Entwicklung und empirische analytische Untersuchung der Usability der visuellen Programmierumgebung senseBlocks",
                     "author": "Bernd van Rennigs",
                     "type"  : "M.Sc. Thesis in Education / Computer Science Didactics",
-                    "where" : "University of Münster",
-                    "thesis": true
-                },{
-                    "title" : "Gamification on Aerial Imagery of Crowds",
-                    "author": "Gebru Welay Gerezigiher",
-                    "type"  : "M.Sc. Thesis in Geoinformatics",
-                    "where" : "University of Münster",
-                    "thesis": true
-                },{
-                    "title" : "Positional Accuracy and Disaster Extent of Geo-Tagged Images using VGI Data",
-                    "author": "Prateek Budwhar",
-                    "type"  : "M.Sc. Thesis in Geoinformatics",
-                    "where" : "University of Münster",
-                    "thesis": true
-                },{
-                    "title" : "Citizen Science in Traffic Monitoring",
-                    "author": "Julius Wittkopp",
-                    "type"  : "M.Sc. Thesis in Geoinformatics",
                     "where" : "University of Münster",
                     "thesis": true
                 },{
@@ -237,11 +219,6 @@
                     "type"  : "",
                     "where" : "NÖV – Nachrichten aus dem öffentlichen Vermessungswesen Nordrhein Westfalen. Ausgabe 1 / 2014, S. 79-85"
                 },{ 
-                    "title" : "WebGIS application with ArcGIS Server for improving the geospatial knowledge in students in High School",
-                    "author": "Pilar Carrega",
-                    "type"  : "M.Sc. Thesis in Geospatial Technologies",
-                    "where" : "University of Münster",
-                    "thesis": true
                 }
             ]
         },{
@@ -313,12 +290,7 @@
                     "type"  : "",
                     "where" : "SCHULE.NRW, Ausgabe 3/2013, S. 113 – 115"
                 },{ 
-                    "title" : "Smart Indoor Maps – A Lightweight Indoor Navigation Framework",
-                    "author": "Andres Westermann",
-                    "type"  : "M.Sc. Thesis in Geoinformatics",
-                    "where" : "University of Münster",
-                    "thesis": true
-                },{ 
+         
                     "title" : "A digital map based on children’s perception of space",
                     "author": "Phlippe Rieffel",
                     "type"  : "M.Sc. Thesis in Geoinformatics",
