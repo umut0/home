@@ -8,7 +8,7 @@
         "topImg" : "assets/img/start/senseBox_edu.jpg",
         "subtitle" : "Lerne wie man Technologien benutzt und Wissen, Informationen und Daten in der Welt verbreitet.",
         "botImg" : "assets/img/startBot.jpg",
-        "contentTitle" : "So macht das lernen wieder Spass!",
+        "contentTitle" : "So macht das Lernen wieder Spass!",
         "content" : "<p>eduSense basiert auf den Erfahrungen, Entwicklungen und Forschungsergebnissen aus <span class='highlight'>10 Jahren</span> Arbeit am Forschungs- und Schülerlabor <a href='http://www.uni-muenster.de/Geoinformatics/gi-at-school/' target='_blank'>GI@School</a>! </p><p>Bei Schüler- und Lehrerworkshops zu Themenbereichen wie Mikrocontroller-Programmierung, Umweltsensorik, Appentwicklung, Modelierung von Geodaten oder 3D Druck steht die <span class='highlight'>praxisnahe und praktische Arbeit</span> im Vordergrund. </p><p>Damit richten wir uns an Bildungseinrichtungen um sie bei der Umsetzung einer <span class='highlight'>projektorientieren Unterrichtsgestaltung</span> in den MINT Fächern zu unterstützen.</p><p>Unsere <a href='http://sensebox.de' target='_blank'>senseBox</a> und <a href='http://opensensemap.de' target='_blank'>openSenseMap</a> sind prominente Beispiele für eine erfolgreiche Anwendung in der <span class='highlight'>digitalen Bildung</span>!</p>",
         "contentBox" : [
             {
@@ -77,7 +77,7 @@
         "members" : [
             {
                 "name" : "Thomas Bartochek",
-                "title" : "PhD Geoinformatics.",
+                "title" : "PhD Geoinformatics",
                 "desc" : "Der Leiter und Gründer von GI@School hat langjährige Erfahrungen im Bildungsbereich, im Projektmanagement und Präsentationstechniken vorzuweisen. Er hat über 500 Lehrer fortgebildet und sehr viel praktische Erfahrung in der Lehre gesammelt. Durch die Forschungsarbeit im Rahmen seiner Dissertation war er zudem die treibende Kraft im erfolgreichen Aufbau des Forschungs- und Schülerlabors. Im Unternehmen übernimmt Dr. Bartoschek die Geschäftsführung, wird für Produktdesign und -entwicklung, Kundenakquise und das Verfassen von Anträgen verantwortlich sein.",
                 "img"  : "assets/img/team/barto.jpg",
                 "img2"  : "assets/img/team/barto.jpg"
