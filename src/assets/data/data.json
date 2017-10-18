@@ -47,11 +47,11 @@
                         "img"  : "assets/img/start/workshop3.jpg"
                     },{
                         "title": "Praxis",
-                        "text" : "Benutze moderne Technologien um aktuelle Probleme aufzuzeigen und zu lösen.",
+                        "text" : "Benutze moderne Technologien um aktuelle Probleme aufzuzeigen und zu lösen",
                         "img"  : "assets/img/start/workshop5.jpg"
                     },{
                         "title": "Schule",
-                        "text" : "Lehrreiche Workshops für Lehrer und Schüler!.",
+                        "text" : "Lehrreiche Workshops für Lehrer und Schüler",
                         "img"  : "assets/img/start/workshop6.jpg"
                     }
                 ]
