@@ -9,6 +9,7 @@
 
     </div>
     <ul *ngIf="dataService.data" class="outside-list">
+        <p *ngIf="showAll == 'price'" [@fadeIn]="''">Alle Preise wurden im Rahmen des GI@School Projektes gewonnen.</p>
         <li *ngFor="let year of dataService.data.publications">
             <div *ngFor="let pub of year.pubs | thesis : showAll ; let k = index" [@fadeIn]="''" >
 
