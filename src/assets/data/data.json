@@ -76,13 +76,13 @@
         "teamImg" : "assets/img/team.jpg",
         "members" : [
             {
-                "name" : "Thomas Bartochek",
+                "name" : "Thomas Bartoschek",
                 "title" : "PhD Geoinformatics",
                 "desc" : "Der Leiter und Gründer von GI@School hat langjährige Erfahrungen im Bildungsbereich, im Projektmanagement und Präsentationstechniken vorzuweisen. Er hat über 500 Lehrer fortgebildet und sehr viel praktische Erfahrung in der Lehre gesammelt. Durch die Forschungsarbeit im Rahmen seiner Dissertation war er zudem die treibende Kraft im erfolgreichen Aufbau des Forschungs- und Schülerlabors. Im Unternehmen übernimmt Dr. Bartoschek die Geschäftsführung, wird für Produktdesign und -entwicklung, Kundenakquise und das Verfassen von Anträgen verantwortlich sein.",
                 "img"  : "assets/img/team/barto.jpg",
                 "img2"  : "assets/img/team/barto.jpg"
             },{
-                "name" : "Jan Wirwahhn",
+                "name" : "Jan Wirwahn",
                 "title" : "M.Sc. Geoinformatics",
                 "desc" : "Arbeitet momentan als wissenschaftlicher Mitarbeiter im senseBox Projekt. Dort ist er für das Design der Hardware und die Planung von Workshops zuständig. Des weiteren führt er als Dozent am Fachbereich Geowissenschaften praktische Seminare zur Geodatenerhebung und Mikrocontrollerprogrammierung durch. Im Unternehmen wird er für die Weiterentwicklung der senseBox verantwortlich sein, sowie die Hardwareentwicklung von interaktiven Exponaten vorantreiben. Außerdem wird er für die Planung von Seminaren und das Erstellen von Lehrmaterialien zuständig sein",
                 "img"  : "assets/img/team/jan.jpg",

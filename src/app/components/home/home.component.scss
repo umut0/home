@@ -99,7 +99,7 @@ ul {
     .text-content-wrapper {
         padding: 2em;
         @media screen and (max-width: $break-small){
-            padding: 1em 0;
+            padding: 1em 0.5em;
         }
     }
 
