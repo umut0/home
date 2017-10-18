@@ -129,6 +129,10 @@
                     "type"  : "B.Sc. Thesis in Geoinformatics",
                     "where" : "University of Münster",
                     "thesis": true
+                },{
+                    "title" : "Gewinner des CeBIT Innovation Awards Sonderpreis für Digitales Lernen und Lehren für “senseBox - DIY Citizen Science Toolkit”",
+                    "price" : "Material im Wert von 15.000€",
+                    "thesis"  : "price"
                 }
             ]
         },{
@@ -158,6 +162,18 @@
                     "type"  : "B.Sc. Thesis in Geoinformatics",
                     "where" : "University of Münster",
                     "thesis": true
+                },{
+                    "title" : "Gewinner beim CodeWeekAward für das Veranstaltungskonzept „senseBox Hackathon“",
+                    "price" : "5.000€",
+                    "thesis"  : "price"
+                },{
+                    "title" : "Gewinner beim BMBF-Hochschulwettbewerb zum Wissenschaftsjahr, “Meere und Ozeane” mit dem Projekt “openSea”",
+                    "price" : "10.000€",
+                    "thesis"  : "price"
+                },{
+                    "title" : "Gewinner beim Citizen Science Wettbewerb “Forscherteam 2016” mit der senseBox gemeinsam mit der Anne-Frank- Gesamtschule",
+                    "price" : "1.500€",
+                    "thesis"  : "price"
                 }
                 
             ]
@@ -198,6 +214,10 @@
                     "type"  : "B.Sc. Thesis in Geoinformatics",
                     "where" : "University of Münster",
                     "thesis": true
+                },{
+                    "title" : "Gewinner beim Citizen Science Wettbewerb “Zukunftsstadt 2015” mit der senseBox",
+                    "price" : "3.000€",
+                    "thesis": "price"
                 }
             ]
         },{
@@ -218,7 +238,18 @@
                     "author": "Caffier, A., Bartoschek, T. , Gierse, K.-U.",
                     "type"  : "",
                     "where" : "NÖV – Nachrichten aus dem öffentlichen Vermessungswesen Nordrhein Westfalen. Ausgabe 1 / 2014, S. 79-85"
-                },{ 
+                },{
+                    "title" : "Gewinner bei der Make Light Challenge des BMBF mit der senseBox Photonik",
+                    "price" : "",
+                    "thesis"  : "price"
+                },{
+                    "title" : "Best Poster Award auf der Konferenz AGILE 2014 für das Poster “It’s Girls Day - What sketch maps show about girls’ spatial knowledge”",
+                    "price" : "",
+                    "thesis"  : "price"
+                },{
+                    "title" : "Gewinner beim BMBF-Hochschulwettbewerb zum Wissenschaftsjahr, “Die Digitale Gesellschaft” mit dem Projekt “SWAG - Städte Werden smArt Gemacht”",
+                    "price" : "10.000€",
+                    "thesis": ""
                 }
             ]
         },{
@@ -296,6 +327,14 @@
                     "type"  : "M.Sc. Thesis in Geoinformatics",
                     "where" : "University of Münster",
                     "thesis": true
+                },{
+                    "title" : "Gewinner beim BMBF-Hochschulwettbewerb zum Wissenschaftsjahr “Die Demographische Chance” mit dem Projekt “BÄM - Bunter Älter Mobiler - Schüler entwickeln Apps für Senioren”",
+                    "price" : "10.0000€",
+                    "thesis"  : "price"
+                },{
+                    "title" : "Gewinner bei der NASA World Wind Europa Challenge 2013 mit der Anwendung “Linked Europe Browser”",
+                    "price" : "",
+                    "thesis"  : "price"
                 }
             ]
         },{
@@ -323,6 +362,14 @@
                     "type"  : "B.Sc. Thesis in Geoinformatics",
                     "where" : "University of Münster",
                     "thesis": true
+                },{
+                    "title" : "Nominierung für den Preis “Schule trifft Wissenschaft” der Robert Bosch Stiftung",
+                    "price" : "2.000€",
+                    "thesis"  : "price"
+                },{
+                    "title" : "Zweiter Platz beim Wettbewerb Wissenschaft Interaktiv für das Exponat “Dreieck der Nachhaltigkeit”",
+                    "price" : "8.000€",
+                    "thesis"  : "price"
                 }
             ]
         },{
@@ -358,6 +405,10 @@
                     "author": "Bartoschek, T., Bredel, H., Schlüter, J., Konopatzky, P., Forster, M., Remke, A., Riedemann, C.",
                     "type"  : "",
                     "where" : "The 13th AGILE International Conference on Geographic Information Science, Guimaraes, Portugal"
+                },{
+                    "title" : "Erster Platz beim Wettbewerb “GIS in der Schule” auf der Messe INTERGEO mit dem Projekt “Solarvixbeck” - gemeinsam mit der Anne-Frank- Gesamtschule Havixbeck",
+                    "price" : "",
+                    "thesis"  : "price"
                 }
             ]
         },{
@@ -373,6 +424,10 @@
                     "author": "Bartoschek, T.",
                     "type"  : "",
                     "where" : "Praxis Geographie 2/2009, Westermann"
+                },{
+                    "title" : "Gewinner des BMBF Hochschulwettbwerbes “Forschungsexpedition Deutschland” mit dem Beitrag “Geoinformatik mit Hand, Fuß und Köpfchen”",
+                    "price" : "10.000€",
+                    "thesis"  : "price"
                 }
             ]
         },{
@@ -408,6 +463,14 @@
                     "author": "Bartoschek, T., Gundelsweiler, G",
                     "type"  : "",
                     "where" : "Proceedings of the 10th AGILE Conference. Aalborg, Denmark"
+                },{
+                    "title" : "Erster Platz für den Beitrag “GDI macht Schule” im NRW-Wettbewerb „Geoinnovationen“",
+                    "price" : "",
+                    "thesis"  : "price"
+                },{
+                    "title" : "Best Outreach and Education Project Award bei AGIT 2007 für das Paper Gundelsweiler, G., Bartoschek, T. (2007): GI@School: Kooperationsmodell Schule-Universität für den Einsatz digitaler Geoinformation im Schulunterricht. In: Lernen mit Geoinformation II, Wichmann Verlag",
+                    "price" : "",
+                    "thesis"  : "price"
                 }
             ]
         }

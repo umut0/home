@@ -1,8 +1,12 @@
 <div id="pubs" class="ut-content-container">
     <div class="ut-content-wrapper">
         <h1> Veröffentlichungen </h1>
-        <button class="ut-button" [class.active]="showAll" (click)="showAll = true">Alle Veröffentlichungen</button>
-        <button class="ut-button" [class.active]="!showAll" (click)="showAll = false">Thesis</button>
+        <button class="ut-button" [class.active]="showAll == 'all'" (click)="showAll = 'all'">Alle Veröffentlichungen</button>
+        <button class="ut-button" [class.active]="showAll == 'thesis'" (click)="showAll = 'thesis'">Thesis</button>
+        <div id="price-button"> 
+            <button class="ut-button" [class.active]="showAll == 'price'" (click)="showAll = 'price'">Preise</button>
+        </div>
+
     </div>
     <ul *ngIf="dataService.data" class="outside-list">
         <li *ngFor="let year of dataService.data.publications">
@@ -19,6 +23,8 @@
                             <p *ngIf="pub.type"></p>
                             <p class="authors">{{pub.author}} <span class="thesis" *ngIf="pub.type">({{pub.type}})</span></p>
                             <p class="where">{{pub.where}}</p>
+                            <p *ngIf="pub.price">Preis: {{pub.price}}</p>
+
                         <!-- </ng-container> -->
                     </li>
                 </ul>

@@ -24,6 +24,20 @@
     .authors {
         font-style: italic;
     }
+
+    #price-button {
+
+        @media screen and (min-width: $break-small){
+            padding-left: 1em;
+            margin-left: 1em;
+            border-left: 1px solid #ccc;
+            display: inline-block;
+        }
+        @media screen and (max-width: $break-small){
+            padding-top: 1em;
+        }
+
+    }
 }
 
 ul {

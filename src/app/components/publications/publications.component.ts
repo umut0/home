@@ -21,7 +21,7 @@ import { trigger, state, animate, transition, style } from '@angular/animations'
 })
 export class PublicationsComponent implements OnInit {
 
-    public showAll = true;
+    public showAll = 'all';
 
   constructor(public dataService: DataService) { }
 
