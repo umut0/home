@@ -27,8 +27,15 @@
                             <p *ngIf="pub.price">Preis: {{pub.price}}</p>
 
                         <!-- </ng-container> -->
+                         <div class="vids" *ngIf="pub.videos">
+                                <div class="video-container" *ngFor="let vid of pub.videos" (click)="startVideo(vid.id, $event);">
+                                    <img src="https://img.youtube.com/vi/{{vid.id}}/default.jpg">
+                                </div>
+                        </div>
                     </li>
                 </ul>
+
+
             </div>
         </li>
     </ul>

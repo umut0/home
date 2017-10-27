@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
+import { VideoService } from '../../services/video.service';
 import { trigger, state, animate, transition, style } from '@angular/animations';
 
 @Component({
@@ -23,9 +24,13 @@ export class PublicationsComponent implements OnInit {
 
     public showAll = 'all';
 
-  constructor(public dataService: DataService) { }
+  constructor(public dataService: DataService, public videoService: VideoService) { }
 
   ngOnInit() {
+  }
+
+  startVideo(id, event){
+      this.videoService.startVideo(id, event.srcElement.parentElement);
   }
 
 }

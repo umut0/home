@@ -150,7 +150,13 @@
                 },{
                     "title" : "Gewinner des CeBIT Innovation Awards Sonderpreis für Digitales Lernen und Lehren für “senseBox - DIY Citizen Science Toolkit”",
                     "price" : "Material im Wert von 15.000€",
-                    "thesis"  : "price"
+                    "thesis"  : "price",
+                    "videos" : [
+                        {
+                            "link" : "https://youtu.be/05F7DUOO-KM",
+                            "id"   : "05F7DUOO-KM"
+                        }
+                    ]
                 },{
                     "title" : "Sybille-Hahne-Nachwuchs-Gründerpreis",
                     "price" : "1.500€",
