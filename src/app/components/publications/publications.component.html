@@ -40,3 +40,9 @@
         </li>
     </ul>
 </div>
+
+<div id="player-container" [hidden]="!videoService.display">
+  <span class="ut-close" (click)="videoService.closeVideo()"><i class="fa fa-times"></i></span>
+  <div id="player">
+  </div>
+</div>

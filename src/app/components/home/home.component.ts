@@ -52,14 +52,13 @@ export class HomeComponent implements OnInit {
 
   public obs = [];
 
-  constructor(public dataService: DataService, private videoService: VideoService) { }
+  constructor(public dataService: DataService, public videoService: VideoService) { }
 
   ngOnInit() {
       let that = this;
 
       this.dataService.getData().subscribe( data => {
           data.startpage.products.forEach(function(item,index){
-              console.log(that.obs);
               that.obs[index] = Observable.interval(7500).subscribe(x => {
                   that.increaseCount(item);
               });
@@ -104,7 +103,8 @@ export class HomeComponent implements OnInit {
   }
 
   startVideo(id, event){
-      this.videoService.startVideo(id, event.srcElement.parentElement.parentElement.parentElement);
+      var target = event.target || event.srcElement
+      this.videoService.startVideo(id, target.parentElement.parentElement.parentElement.parentElement.parentElement);
   }
   test(){
       console.log("test")

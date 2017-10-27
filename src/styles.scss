@@ -94,9 +94,59 @@ a {
     color: #43005D;
 }
 
-#player {
-    margin: auto;
-    display: inherit;
+#player-container {
+    // margin: auto;
+    // display: inherit;
+    text-align: center;
+    position: relative;
+}
+
+.ut-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.video-container {
+    cursor: pointer;
+    position: relative;
+
+    .img-wrapper {
+        position: relative;
+
+        &:hover {
+            .img-play-button {
+                opacity: 1;
+            }
+        }
+
+        .img-play-button {
+            opacity: 0;
+            transition: opacity 0.2s linear;
+            // background: rgba(255,255,255,0.4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            // font-size: 35px;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            color: red;
+            z-index: 3;
+            i {
+                font-size: 40px;
+                background: rgba(255,255,255,0.4);
+                border-radius: 6px;
+                padding: 0 0.2em;
+                // margin: auto;
+                // vertical-align: middle;
+            }
+        }
+    }
 }
 
 // TRY

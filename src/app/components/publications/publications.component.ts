@@ -30,7 +30,9 @@ export class PublicationsComponent implements OnInit {
   }
 
   startVideo(id, event){
-      this.videoService.startVideo(id, event.srcElement.parentElement);
+      var target = event.target || event.srcElement
+
+      this.videoService.startVideo(id, target.parentElement.parentElement);
   }
 
 }
