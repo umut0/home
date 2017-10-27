@@ -1,9 +1,9 @@
 <div id="team" *ngIf="dataService.data" [@fadeInOut]="dataService.data">
     <div class="full-img-container" [style.backgroundImage]="'url(' + dataService.data.team.teamImg + ')'">
-        <h1>Best Team in the World</h1>
+        <h1>Wir sind nur ein Teil der Community</h1>
     </div>
     <div class="teammembers ut-content-container">
-        <h2> Team Mitglieder </h2>
+        <h2> Das eduSense Gründerteam </h2>
         <ul>
             <li *ngFor="let member of dataService.data.team.members" class="member">
                 <div class="img-wrapper" [style.backgroundImage]="'url(' + member.img + ')'">

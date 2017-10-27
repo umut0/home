@@ -8,7 +8,7 @@
         "topImg" : "assets/img/start/senseBox_edu.jpg",
         "subtitle" : "Lerne wie man Technologien benutzt und Wissen, Informationen und Daten in der Welt verbreitet.",
         "botImg" : "assets/img/startBot.jpg",
-        "contentTitle" : "So macht das Lernen wieder Spass!",
+        "contentTitle" : "So macht das Lernen Spass!",
         "content" : "<p>eduSense basiert auf den Erfahrungen, Entwicklungen und Forschungsergebnissen aus <span class='highlight'>10 Jahren</span> Arbeit am Forschungs- und Schülerlabor <a href='http://www.uni-muenster.de/Geoinformatics/gi-at-school/' target='_blank'>GI@School</a>! </p><p>Bei Schüler- und Lehrerworkshops zu Themenbereichen wie Mikrocontroller-Programmierung, Umweltsensorik, Appentwicklung, Modelierung von Geodaten oder 3D Druck steht die <span class='highlight'>praxisnahe und praktische Arbeit</span> im Vordergrund. </p><p>Damit richten wir uns an Bildungseinrichtungen um sie bei der Umsetzung einer <span class='highlight'>projektorientieren Unterrichtsgestaltung</span> in den MINT Fächern zu unterstützen.</p><p>Unsere <a href='http://sensebox.de' target='_blank'>senseBox</a> und <a href='http://opensensemap.de' target='_blank'>openSenseMap</a> sind prominente Beispiele für eine erfolgreiche Anwendung in der <span class='highlight'>digitalen Bildung</span>!</p>",
         "contentBox" : [
             {
@@ -36,6 +36,17 @@
                         "text" : "Baut euch eure eigene Wetterstation mit der <a href='http://sensebox.de'>senseBox:home</a> und vermesst eure Umgebung und die Umwelteinflüsse denen ihr tagtäglich ausgesetzt seid.",
                         "img"  : "assets/img/start/senseBox_home.JPG"
                     }
+                ],
+                "videos" : [
+                    {
+                        "link" : "http://youtu.be/I8ZeT6hzjKQ",
+                        "id"   : "I8ZeT6hzjKQ",
+                        "title": "Introducing senseBox"
+                    },{
+                        "link" : "http://youtu.be/56DSPZFx98E",
+                        "id"   : "56DSPZFx98E",
+                        "title": "Was ist die senseBox?"
+                    }
                 ]
             }, {
                 "title" : "Workshops",
@@ -53,6 +64,13 @@
                         "title": "Schule",
                         "text" : "Lehrreiche Workshops für Lehrer und Schüler",
                         "img"  : "assets/img/start/workshop6.jpg"
+                    }
+                ],
+                "videos" : [
+                    {
+                        "link" : "http://www.youtube.com/watch?v=FRtbp-YEdT4",
+                        "id"   : "FRtbp-YEdT4",
+                        "title" : "Workshop"
                     }
                 ]
             }, {
@@ -132,6 +150,10 @@
                 },{
                     "title" : "Gewinner des CeBIT Innovation Awards Sonderpreis für Digitales Lernen und Lehren für “senseBox - DIY Citizen Science Toolkit”",
                     "price" : "Material im Wert von 15.000€",
+                    "thesis"  : "price"
+                },{
+                    "title" : "Sybille-Hahne-Nachwuchs-Gründerpreis",
+                    "price" : "1.500€",
                     "thesis"  : "price"
                 }
             ]

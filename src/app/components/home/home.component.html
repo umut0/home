@@ -38,6 +38,15 @@
                     <!-- <div class="product-nav">
                         <div class="product-nav-item" *ngFor="let content of product.content; let k = index" [class.active]="k == product.active" (click)="product.active = k" title="{{content.title}}"></div>
                     </div> -->
+                    <div class="vids-container ut-content-container">
+                        <h3 *ngIf="product.videos">Erfahre mehr in einem der Videos</h3>
+                        <div class="vids" *ngIf="product.videos">
+                            <div class="video-container" *ngFor="let vid of product.videos" (click)="startVideo(vid.id, $event);">
+                                <p>{{vid.title}}</p>
+                                <img src="https://img.youtube.com/vi/{{vid.id}}/default.jpg">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

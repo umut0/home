@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
+import { VideoService } from '../../services/video.service';
 import { trigger, state, animate, transition, style } from '@angular/animations';
 import {Observable} from 'rxjs/Rx';
 
@@ -51,7 +52,7 @@ export class HomeComponent implements OnInit {
 
   public obs = [];
 
-  constructor(public dataService: DataService) { }
+  constructor(public dataService: DataService, private videoService: VideoService) { }
 
   ngOnInit() {
       let that = this;
@@ -82,7 +83,6 @@ export class HomeComponent implements OnInit {
   }
 
   increaseCount(item){
-      console.log(this.obs)
       item.active++;
       if (item.active >= item.content.length) {
           item.active = 0;
@@ -101,6 +101,13 @@ export class HomeComponent implements OnInit {
       if (item.active < 0) {
           item.active = item.content.length-1;
       }
+  }
+
+  startVideo(id, event){
+      this.videoService.startVideo(id, event.srcElement.parentElement.parentElement.parentElement);
+  }
+  test(){
+      console.log("test")
   }
 
 }

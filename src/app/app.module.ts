@@ -13,6 +13,7 @@ import { ImpressumComponent } from './components/impressum/impressum.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { DataService } from './services/data.service';
+import { VideoService } from './services/video.service';
 import { FooterComponent } from './components/footer/footer.component';
 import { ThesisPipe } from './pipes/thesis.pipe';
 
@@ -50,7 +51,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule
 
   ],
-  providers: [DataService],
+  providers: [DataService, VideoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
