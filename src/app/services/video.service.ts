@@ -12,7 +12,8 @@ export class VideoService {
   startVideo(id, container){
 
       let playerEle = document.getElementById('player');
-      playerEle.remove();
+      if (playerEle)
+          playerEle.remove();
       playerEle = document.createElement('div');
       playerEle.id = 'player'
       container.append(playerEle);
