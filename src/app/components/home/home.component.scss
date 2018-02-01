@@ -295,3 +295,13 @@ ul {
     top: 0;
     right: 0;
 }
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
